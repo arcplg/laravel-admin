@@ -1,9 +1,9 @@
 <?php
 
-namespace Klaara\Admin\Form\Field;
+namespace Arcplg\Admin\Form\Field;
 
-use Klaara\Admin\Form\NestedForm;
-use Klaara\Admin\Widgets\Form as WidgetForm;
+use Arcplg\Admin\Form\NestedForm;
+use Arcplg\Admin\Widgets\Form as WidgetForm;
 
 class Table extends HasMany
 {

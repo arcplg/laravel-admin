@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin\Actions;
+namespace Arcplg\Admin\Actions;
 
-use Klaara\Admin\Grid\Column;
+use Arcplg\Admin\Grid\Column;
 use Illuminate\Http\Request;
 
 abstract class RowAction extends GridAction

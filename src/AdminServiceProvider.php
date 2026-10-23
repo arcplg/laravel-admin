@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin;
+namespace Arcplg\Admin;
 
-use Klaara\Admin\Layout\Content;
+use Arcplg\Admin\Layout\Content;
 use Illuminate\Routing\Router;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Blade;
@@ -85,7 +85,7 @@ class AdminServiceProvider extends ServiceProvider
         $this->compatibleBlade();
 
         Blade::directive('box', function ($title) {
-            return "<?php \$box = new \Klaara\Admin\Widgets\Box({$title}, '";
+            return "<?php \$box = new \Arcplg\Admin\Widgets\Box({$title}, '";
         });
 
         Blade::directive('endbox', function ($expression) {

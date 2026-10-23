@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin\Actions;
+namespace Arcplg\Admin\Actions;
 
-use Klaara\Admin\Grid;
+use Arcplg\Admin\Grid;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Http\Request;
 

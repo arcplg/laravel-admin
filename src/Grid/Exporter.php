@@ -1,9 +1,9 @@
 <?php
 
-namespace Klaara\Admin\Grid;
+namespace Arcplg\Admin\Grid;
 
-use Klaara\Admin\Grid;
-use Klaara\Admin\Grid\Exporters\CsvExporter;
+use Arcplg\Admin\Grid;
+use Arcplg\Admin\Grid\Exporters\CsvExporter;
 
 class Exporter
 {

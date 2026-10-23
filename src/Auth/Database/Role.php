@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin\Auth\Database;
+namespace Arcplg\Admin\Auth\Database;
 
-use Klaara\Admin\Traits\DefaultDatetimeFormat;
+use Arcplg\Admin\Traits\DefaultDatetimeFormat;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 

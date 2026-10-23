@@ -1,11 +1,11 @@
 <?php
 
-namespace Klaara\Admin\Grid\Column;
+namespace Arcplg\Admin\Grid\Column;
 
 use Carbon\Carbon;
-use Klaara\Admin\Grid\Column;
-use Klaara\Admin\Grid\Displayers;
-use Klaara\Admin\Grid\Model;
+use Arcplg\Admin\Grid\Column;
+use Arcplg\Admin\Grid\Displayers;
+use Arcplg\Admin\Grid\Model;
 use Illuminate\Support\Arr;
 
 /**

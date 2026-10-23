@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin\Form;
+namespace Arcplg\Admin\Form;
 
-use Klaara\Admin\Form;
+use Arcplg\Admin\Form;
 use Illuminate\Contracts\Support\Renderable;
 
 class Row implements Renderable

@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin\Console;
+namespace Arcplg\Admin\Console;
 
-use Klaara\Admin\Facades\Admin;
+use Arcplg\Admin\Facades\Admin;
 use Illuminate\Console\Command;
 
 class MenuCommand extends Command

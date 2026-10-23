@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin\Grid\Displayers;
+namespace Arcplg\Admin\Grid\Displayers;
 
-use Klaara\Admin\Widgets\Carousel as CarouselWidget;
+use Arcplg\Admin\Widgets\Carousel as CarouselWidget;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Support\Facades\Storage;
 

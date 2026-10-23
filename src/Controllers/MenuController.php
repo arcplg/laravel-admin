@@ -1,13 +1,13 @@
 <?php
 
-namespace Klaara\Admin\Controllers;
+namespace Arcplg\Admin\Controllers;
 
-use Klaara\Admin\Form;
-use Klaara\Admin\Layout\Column;
-use Klaara\Admin\Layout\Content;
-use Klaara\Admin\Layout\Row;
-use Klaara\Admin\Tree;
-use Klaara\Admin\Widgets\Box;
+use Arcplg\Admin\Form;
+use Arcplg\Admin\Layout\Column;
+use Arcplg\Admin\Layout\Content;
+use Arcplg\Admin\Layout\Row;
+use Arcplg\Admin\Tree;
+use Arcplg\Admin\Widgets\Box;
 use Illuminate\Routing\Controller;
 
 class MenuController extends Controller
@@ -30,7 +30,7 @@ class MenuController extends Controller
                 $row->column(6, $this->treeView()->render());
 
                 $row->column(6, function (Column $column) {
-                    $form = new \Klaara\Admin\Widgets\Form();
+                    $form = new \Arcplg\Admin\Widgets\Form();
                     $form->action(admin_url('auth/menu'));
 
                     $menuModel = config('admin.database.menu_model');
@@ -65,7 +65,7 @@ class MenuController extends Controller
     }
 
     /**
-     * @return \Klaara\Admin\Tree
+     * @return \Arcplg\Admin\Tree
      */
     protected function treeView()
     {

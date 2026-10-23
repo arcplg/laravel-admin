@@ -1,9 +1,9 @@
 <?php
 
-namespace Klaara\Admin\Grid\Displayers;
+namespace Arcplg\Admin\Grid\Displayers;
 
-use Klaara\Admin\Grid;
-use Klaara\Admin\Grid\Column;
+use Arcplg\Admin\Grid;
+use Arcplg\Admin\Grid\Column;
 use Illuminate\Database\Eloquent\Model;
 
 abstract class AbstractDisplayer

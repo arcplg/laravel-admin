@@ -1,12 +1,12 @@
 <?php
 
-namespace Klaara\Admin;
+namespace Arcplg\Admin;
 
-use Klaara\Admin\Show\Divider;
-use Klaara\Admin\Show\Field;
-use Klaara\Admin\Show\Panel;
-use Klaara\Admin\Show\Relation;
-use Klaara\Admin\Traits\ShouldSnakeAttributes;
+use Arcplg\Admin\Show\Divider;
+use Arcplg\Admin\Show\Field;
+use Arcplg\Admin\Show\Panel;
+use Arcplg\Admin\Show\Relation;
+use Arcplg\Admin\Traits\ShouldSnakeAttributes;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;

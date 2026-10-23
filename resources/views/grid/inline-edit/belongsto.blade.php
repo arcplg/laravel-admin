@@ -64,7 +64,7 @@
         });
     };
 
-@if($relation == \Klaara\Admin\Grid\Displayers\BelongsTo::class)
+@if($relation == \Arcplg\Admin\Grid\Displayers\BelongsTo::class)
 
     var selected = null;
 

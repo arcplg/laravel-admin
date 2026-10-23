@@ -1,10 +1,10 @@
 <?php
 
-namespace Klaara\Admin\Grid;
+namespace Arcplg\Admin\Grid;
 
-use Klaara\Admin\Grid\Filter\AbstractFilter;
-use Klaara\Admin\Grid\Filter\Layout\Layout;
-use Klaara\Admin\Grid\Filter\Scope;
+use Arcplg\Admin\Grid\Filter\AbstractFilter;
+use Arcplg\Admin\Grid\Filter\Layout\Layout;
+use Arcplg\Admin\Grid\Filter\Scope;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Arr;

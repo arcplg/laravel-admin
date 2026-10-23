@@ -1,6 +1,6 @@
 <?php
 
-namespace Klaara\Admin\Grid\Tools;
+namespace Arcplg\Admin\Grid\Tools;
 
 class BatchDelete extends BatchAction
 {

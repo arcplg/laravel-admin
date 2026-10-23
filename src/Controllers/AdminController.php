@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin\Controllers;
+namespace Arcplg\Admin\Controllers;
 
-use Klaara\Admin\Layout\Content;
+use Arcplg\Admin\Layout\Content;
 use Illuminate\Routing\Controller;
 
 class AdminController extends Controller

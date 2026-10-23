@@ -9,7 +9,7 @@
         &nbsp;&nbsp;&nbsp;&nbsp;
 
         @if(config('admin.show_version'))
-        <strong>Version</strong>&nbsp;&nbsp; {!! \Klaara\Admin\Admin::VERSION !!}
+        <strong>Version</strong>&nbsp;&nbsp; {!! \Arcplg\Admin\Admin::VERSION !!}
         @endif
 
     </div>

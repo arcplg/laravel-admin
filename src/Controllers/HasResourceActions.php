@@ -1,6 +1,6 @@
 <?php
 
-namespace Klaara\Admin\Controllers;
+namespace Arcplg\Admin\Controllers;
 
 trait HasResourceActions
 {

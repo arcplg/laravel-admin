@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin\Show;
+namespace Arcplg\Admin\Show;
 
-use Klaara\Admin\Show;
+use Arcplg\Admin\Show;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin\Grid\Displayers;
+namespace Arcplg\Admin\Grid\Displayers;
 
-use Klaara\Admin\Admin;
+use Arcplg\Admin\Admin;
 use Illuminate\Support\Arr;
 
 class Checkbox extends AbstractDisplayer

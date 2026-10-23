@@ -1,6 +1,6 @@
 <?php
 
-namespace Klaara\Admin\Grid\Exporters;
+namespace Arcplg\Admin\Grid\Exporters;
 
 use Illuminate\Support\Str;
 use Maatwebsite\Excel\Concerns\Exportable;

@@ -43,7 +43,7 @@ $grid->actions(function ($actions) {
 
 namespace App\Admin\Extensions;
 
-use Klaara\Admin\Admin;
+use Arcplg\Admin\Admin;
 
 class CheckRow
 {

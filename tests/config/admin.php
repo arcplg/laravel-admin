@@ -58,7 +58,7 @@ return [
         'providers' => [
             'admin' => [
                 'driver' => 'eloquent',
-                'model'  => Klaara\Admin\Auth\Database\Administrator::class,
+                'model'  => Arcplg\Admin\Auth\Database\Administrator::class,
             ],
         ],
     ],
@@ -66,7 +66,7 @@ return [
     /*
      * Laravel-admin upload setting.
      */
-    'grid_action_class' => \Klaara\Admin\Grid\Displayers\Actions::class,
+    'grid_action_class' => \Arcplg\Admin\Grid\Displayers\Actions::class,
 
     'upload' => [
 
@@ -88,19 +88,19 @@ return [
 
         // User tables and model.
         'users_table' => 'admin_users',
-        'users_model' => Klaara\Admin\Auth\Database\Administrator::class,
+        'users_model' => Arcplg\Admin\Auth\Database\Administrator::class,
 
         // Role table and model.
         'roles_table' => 'admin_roles',
-        'roles_model' => Klaara\Admin\Auth\Database\Role::class,
+        'roles_model' => Arcplg\Admin\Auth\Database\Role::class,
 
         // Permission table and model.
         'permissions_table' => 'admin_permissions',
-        'permissions_model' => Klaara\Admin\Auth\Database\Permission::class,
+        'permissions_model' => Arcplg\Admin\Auth\Database\Permission::class,
 
         // Menu table and model.
         'menu_table' => 'admin_menu',
-        'menu_model' => Klaara\Admin\Auth\Database\Menu::class,
+        'menu_model' => Arcplg\Admin\Auth\Database\Menu::class,
 
         // Pivot table for table above.
         'operation_log_table'    => 'admin_operation_log',

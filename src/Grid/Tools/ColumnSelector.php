@@ -1,9 +1,9 @@
 <?php
 
-namespace Klaara\Admin\Grid\Tools;
+namespace Arcplg\Admin\Grid\Tools;
 
-use Klaara\Admin\Admin;
-use Klaara\Admin\Grid;
+use Arcplg\Admin\Admin;
+use Arcplg\Admin\Grid;
 use Illuminate\Support\Collection;
 
 class ColumnSelector extends AbstractTool

@@ -1,9 +1,9 @@
 <?php
 
-namespace Klaara\Admin\Grid;
+namespace Arcplg\Admin\Grid;
 
-use Klaara\Admin\Grid;
-use Klaara\Admin\Middleware\Pjax;
+use Arcplg\Admin\Grid;
+use Arcplg\Admin\Middleware\Pjax;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;

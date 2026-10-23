@@ -1,9 +1,9 @@
 <?php
 
-namespace Klaara\Admin\Console;
+namespace Arcplg\Admin\Console;
 
-use Klaara\Admin\Admin;
-use Klaara\Admin\Facades\Admin as AdminFacade;
+use Arcplg\Admin\Admin;
+use Arcplg\Admin\Facades\Admin as AdminFacade;
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
 use MatthiasMullie\Minify;

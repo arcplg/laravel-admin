@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin\Form;
+namespace Arcplg\Admin\Form;
 
-use Klaara\Admin\Form;
+use Arcplg\Admin\Form;
 use Illuminate\Support\Collection;
 
 class Tab

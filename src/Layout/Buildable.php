@@ -1,6 +1,6 @@
 <?php
 
-namespace Klaara\Admin\Layout;
+namespace Arcplg\Admin\Layout;
 
 interface Buildable
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Klaara\Admin\Form\Field;
+namespace Arcplg\Admin\Form\Field;
 
-use Klaara\Admin\Admin;
-use Klaara\Admin\Grid\Selectable;
+use Arcplg\Admin\Admin;
+use Arcplg\Admin\Grid\Selectable;
 
 trait BelongsToRelation
 {
@@ -37,7 +37,7 @@ trait BelongsToRelation
     {
         if (!class_exists($selectable) || !is_subclass_of($selectable, Selectable::class)) {
             throw new \InvalidArgumentException(
-                "[Class [{$selectable}] must be a sub class of Klaara\Admin\Grid\Selectable"
+                "[Class [{$selectable}] must be a sub class of Arcplg\Admin\Grid\Selectable"
             );
         }
 
@@ -143,7 +143,7 @@ STYLE;
     }
 
     /**
-     * @return \Klaara\Admin\Grid
+     * @return \Arcplg\Admin\Grid
      */
     protected function makeGrid()
     {

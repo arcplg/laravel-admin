@@ -1,10 +1,10 @@
 <?php
 
-namespace Klaara\Admin\Controllers;
+namespace Arcplg\Admin\Controllers;
 
-use Klaara\Admin\Facades\Admin;
-use Klaara\Admin\Form;
-use Klaara\Admin\Layout\Content;
+use Arcplg\Admin\Facades\Admin;
+use Arcplg\Admin\Form;
+use Arcplg\Admin\Layout\Content;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Hash;

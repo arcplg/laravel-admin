@@ -1,15 +1,15 @@
 <?php
 
-namespace Klaara\Admin\Grid\Filter;
+namespace Arcplg\Admin\Grid\Filter;
 
-use Klaara\Admin\Grid\Filter;
-use Klaara\Admin\Grid\Filter\Presenter\Checkbox;
-use Klaara\Admin\Grid\Filter\Presenter\DateTime;
-use Klaara\Admin\Grid\Filter\Presenter\MultipleSelect;
-use Klaara\Admin\Grid\Filter\Presenter\Presenter;
-use Klaara\Admin\Grid\Filter\Presenter\Radio;
-use Klaara\Admin\Grid\Filter\Presenter\Select;
-use Klaara\Admin\Grid\Filter\Presenter\Text;
+use Arcplg\Admin\Grid\Filter;
+use Arcplg\Admin\Grid\Filter\Presenter\Checkbox;
+use Arcplg\Admin\Grid\Filter\Presenter\DateTime;
+use Arcplg\Admin\Grid\Filter\Presenter\MultipleSelect;
+use Arcplg\Admin\Grid\Filter\Presenter\Presenter;
+use Arcplg\Admin\Grid\Filter\Presenter\Radio;
+use Arcplg\Admin\Grid\Filter\Presenter\Select;
+use Arcplg\Admin\Grid\Filter\Presenter\Text;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin\Grid\Concerns;
+namespace Arcplg\Admin\Grid\Concerns;
 
-use Klaara\Admin\Grid\Tools\QuickCreate;
+use Arcplg\Admin\Grid\Tools\QuickCreate;
 
 trait HasQuickCreate
 {

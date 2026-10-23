@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin\Grid\Filter\Presenter;
+namespace Arcplg\Admin\Grid\Filter\Presenter;
 
-use Klaara\Admin\Admin;
+use Arcplg\Admin\Admin;
 
 class Text extends Presenter
 {

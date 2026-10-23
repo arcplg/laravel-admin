@@ -1,6 +1,6 @@
 <?php
 
-namespace Klaara\Admin\Widgets;
+namespace Arcplg\Admin\Widgets;
 
 use Illuminate\Support\Fluent;
 

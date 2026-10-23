@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin\Grid\Tools;
+namespace Arcplg\Admin\Grid\Tools;
 
-use Klaara\Admin\Admin;
+use Arcplg\Admin\Admin;
 use Illuminate\Support\Collection;
 
 class BatchActions extends AbstractTool

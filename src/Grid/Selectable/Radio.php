@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin\Grid\Selectable;
+namespace Arcplg\Admin\Grid\Selectable;
 
-use Klaara\Admin\Grid\Displayers\AbstractDisplayer;
+use Arcplg\Admin\Grid\Displayers\AbstractDisplayer;
 
 class Radio extends AbstractDisplayer
 {

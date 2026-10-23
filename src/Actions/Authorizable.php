@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin\Actions;
+namespace Arcplg\Admin\Actions;
 
-use Klaara\Admin\Facades\Admin;
+use Arcplg\Admin\Facades\Admin;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 

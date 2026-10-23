@@ -1,9 +1,9 @@
 <?php
 
-namespace Klaara\Admin\Grid\Concerns;
+namespace Arcplg\Admin\Grid\Concerns;
 
 use Closure;
-use Klaara\Admin\Grid\Tools\TotalRow;
+use Arcplg\Admin\Grid\Tools\TotalRow;
 
 trait HasTotalRow
 {

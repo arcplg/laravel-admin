@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # scripts/migrate-project.sh PROJECT_DIR [--apply]
-# For a Laravel project that used encore/laravel-admin: rewrites `Encore\Admin` to `Klaara\Admin`
+# For a Laravel project that used encore/laravel-admin: rewrites `Encore\Admin` to `Arcplg\Admin`
 # in app/, config/, routes/, resources/, database/, tests/ and bootstrap/.
 # Without --apply it only lists the files that would change. Review the result with `git diff`.
 set -u
@@ -17,5 +17,5 @@ mapfile -d '' files < <(grep -rIlZE 'Encore(\\{1,2})Admin' "${paths[@]}" 2>/dev/
 echo "${#files[@]} file(s) mention Encore\\Admin:"
 if [ "${#files[@]}" -gt 0 ]; then printf '  %s\n' "${files[@]}"; fi
 if [ "$APPLY" != "--apply" ]; then echo "Dry run. Run again with --apply to rewrite them."; exit 0; fi
-if [ "${#files[@]}" -gt 0 ]; then sed -i -E 's/Encore(\\{1,2})Admin/Klaara\1Admin/g' "${files[@]}"; fi
-echo "Rewritten. Now run: composer remove encore/laravel-admin && composer require klaara/laravel-admin && php artisan config:clear"
+if [ "${#files[@]}" -gt 0 ]; then sed -i -E 's/Encore(\\{1,2})Admin/Arcplg\1Admin/g' "${files[@]}"; fi
+echo "Rewritten. Now run: composer remove encore/laravel-admin && composer require arcplg/laravel-admin && php artisan config:clear"

@@ -1,6 +1,6 @@
 <?php
 
-namespace Klaara\Admin\Form\Field;
+namespace Arcplg\Admin\Form\Field;
 
 class Decimal extends Text
 {

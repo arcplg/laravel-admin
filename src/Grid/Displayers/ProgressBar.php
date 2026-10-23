@@ -1,6 +1,6 @@
 <?php
 
-namespace Klaara\Admin\Grid\Displayers;
+namespace Arcplg\Admin\Grid\Displayers;
 
 class ProgressBar extends AbstractDisplayer
 {

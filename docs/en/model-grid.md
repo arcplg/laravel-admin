@@ -1,6 +1,6 @@
 # Model-grid
 
-Class `Klaara\Admin\Grid` is used to generate tables based on the data model,for example,we have a table `movies` in database:
+Class `Arcplg\Admin\Grid` is used to generate tables based on the data model,for example,we have a table `movies` in database:
 
 ```sql
 CREATE TABLE `movies` (
@@ -23,8 +23,8 @@ And the model of this table is `App\Models\Movie`,The following code can generat
 ```php
 
 use App\Models\Movie;
-use Klaara\Admin\Grid;
-use Klaara\Admin\Facades\Admin;
+use Arcplg\Admin\Grid;
+use Arcplg\Admin\Facades\Admin;
 
 $grid = Admin::grid(Movie::class, function(Grid $grid){
 

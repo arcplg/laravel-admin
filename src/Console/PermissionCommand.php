@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin\Console;
+namespace Arcplg\Admin\Console;
 
-use Klaara\Admin\Auth\Database\Permission;
+use Arcplg\Admin\Auth\Database\Permission;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;

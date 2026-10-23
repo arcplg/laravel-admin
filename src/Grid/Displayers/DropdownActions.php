@@ -1,12 +1,12 @@
 <?php
 
-namespace Klaara\Admin\Grid\Displayers;
+namespace Arcplg\Admin\Grid\Displayers;
 
-use Klaara\Admin\Actions\RowAction;
-use Klaara\Admin\Admin;
-use Klaara\Admin\Grid\Actions\Delete;
-use Klaara\Admin\Grid\Actions\Edit;
-use Klaara\Admin\Grid\Actions\Show;
+use Arcplg\Admin\Actions\RowAction;
+use Arcplg\Admin\Admin;
+use Arcplg\Admin\Grid\Actions\Delete;
+use Arcplg\Admin\Grid\Actions\Edit;
+use Arcplg\Admin\Grid\Actions\Show;
 
 class DropdownActions extends Actions
 {

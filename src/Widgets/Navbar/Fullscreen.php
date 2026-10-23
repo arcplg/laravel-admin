@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin\Widgets\Navbar;
+namespace Arcplg\Admin\Widgets\Navbar;
 
-use Klaara\Admin\Admin;
+use Arcplg\Admin\Admin;
 use Illuminate\Contracts\Support\Renderable;
 
 /**

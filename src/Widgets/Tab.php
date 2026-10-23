@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin\Widgets;
+namespace Arcplg\Admin\Widgets;
 
-use Klaara\Admin\Facades\Admin;
+use Arcplg\Admin\Facades\Admin;
 use Illuminate\Contracts\Support\Renderable;
 
 class Tab extends Widget implements Renderable

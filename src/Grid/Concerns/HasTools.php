@@ -1,9 +1,9 @@
 <?php
 
-namespace Klaara\Admin\Grid\Concerns;
+namespace Arcplg\Admin\Grid\Concerns;
 
 use Closure;
-use Klaara\Admin\Grid\Tools;
+use Arcplg\Admin\Grid\Tools;
 
 trait HasTools
 {

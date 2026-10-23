@@ -6,7 +6,7 @@ Use `chartjs` for example, first download [chartjs](http://chartjs.org/), put it
 
 Then import the component in `app/Admin/bootstrap.php`:
 ```php
-use Klaara\Admin\Facades\Admin;
+use Arcplg\Admin\Facades\Admin;
 
 Admin::js('/vendor/chartjs/dist/Chart.min.js');
 

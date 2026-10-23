@@ -3,9 +3,9 @@
  * Copyright (c) 2019. Mallto.Co.Ltd.<mall-to.com> All rights reserved.
  */
 
-namespace Klaara\Admin\Form\Layout;
+namespace Arcplg\Admin\Form\Layout;
 
-use Klaara\Admin\Form\Field;
+use Arcplg\Admin\Form\Field;
 use Illuminate\Support\Collection;
 
 class Column

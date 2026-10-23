@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin\Console;
+namespace Arcplg\Admin\Console;
 
-use Klaara\Admin\Admin;
+use Arcplg\Admin\Admin;
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
 

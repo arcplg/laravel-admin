@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin\Grid\Tools;
+namespace Arcplg\Admin\Grid\Tools;
 
-use Klaara\Admin\Grid;
+use Arcplg\Admin\Grid;
 use Illuminate\Pagination\LengthAwarePaginator;
 
 class Paginator extends AbstractTool

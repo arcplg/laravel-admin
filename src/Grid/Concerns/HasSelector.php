@@ -1,9 +1,9 @@
 <?php
 
-namespace Klaara\Admin\Grid\Concerns;
+namespace Arcplg\Admin\Grid\Concerns;
 
-use Klaara\Admin\Grid;
-use Klaara\Admin\Grid\Tools\Selector;
+use Arcplg\Admin\Grid;
+use Arcplg\Admin\Grid\Tools\Selector;
 
 /**
  * @mixin Grid

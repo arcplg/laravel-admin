@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin\Grid\Column;
+namespace Arcplg\Admin\Grid\Column;
 
-use Klaara\Admin\Grid\Displayers;
+use Arcplg\Admin\Grid\Displayers;
 
 trait InlineEditing
 {

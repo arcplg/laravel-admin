@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin\Grid\Displayers;
+namespace Arcplg\Admin\Grid\Displayers;
 
-use Klaara\Admin\Facades\Admin;
+use Arcplg\Admin\Facades\Admin;
 use Illuminate\Support\Str;
 
 class Limit extends AbstractDisplayer

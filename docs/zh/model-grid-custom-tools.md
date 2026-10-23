@@ -9,8 +9,8 @@
 
 namespace App\Admin\Extensions\Tools;
 
-use Klaara\Admin\Admin;
-use Klaara\Admin\Grid\Tools\AbstractTool;
+use Arcplg\Admin\Admin;
+use Arcplg\Admin\Grid\Tools\AbstractTool;
 use Illuminate\Support\Facades\Request;
 
 class UserGender extends AbstractTool
@@ -98,7 +98,7 @@ $grid->tools(function ($tools) {
 
 namespace App\Admin\Extensions\Tools;
 
-use Klaara\Admin\Grid\Tools\BatchAction;
+use Arcplg\Admin\Grid\Tools\BatchAction;
 
 class ReleasePost extends BatchAction
 {

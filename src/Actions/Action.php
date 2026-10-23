@@ -1,9 +1,9 @@
 <?php
 
-namespace Klaara\Admin\Actions;
+namespace Arcplg\Admin\Actions;
 
-use Klaara\Admin\Admin;
-use Klaara\Admin\Form\Field;
+use Arcplg\Admin\Admin;
+use Arcplg\Admin\Form\Field;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 

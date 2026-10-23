@@ -1,9 +1,9 @@
 <?php
 
-namespace Klaara\Admin\Grid\Displayers;
+namespace Arcplg\Admin\Grid\Displayers;
 
-use Klaara\Admin\Admin;
-use Klaara\Admin\Grid\Simple;
+use Arcplg\Admin\Admin;
+use Arcplg\Admin\Grid\Simple;
 use Illuminate\Contracts\Support\Renderable;
 
 class Expand extends AbstractDisplayer

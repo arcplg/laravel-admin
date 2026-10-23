@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin\Form\Field;
+namespace Arcplg\Admin\Form\Field;
 
-use Klaara\Admin\Form\Field;
+use Arcplg\Admin\Form\Field;
 
 class Map extends Field
 {

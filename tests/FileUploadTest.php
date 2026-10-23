@@ -1,6 +1,6 @@
 <?php
 
-use Klaara\Admin\Auth\Database\Administrator;
+use Arcplg\Admin\Auth\Database\Administrator;
 use Illuminate\Support\Facades\File;
 use Tests\Models\File as FileModel;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin\Grid\Concerns;
+namespace Arcplg\Admin\Grid\Concerns;
 
-use Klaara\Admin\Grid\Tools\FixColumns;
+use Arcplg\Admin\Grid\Tools\FixColumns;
 use Illuminate\Support\Collection;
 
 trait CanFixColumns

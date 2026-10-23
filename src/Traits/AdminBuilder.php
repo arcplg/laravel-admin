@@ -1,10 +1,10 @@
 <?php
 
-namespace Klaara\Admin\Traits;
+namespace Arcplg\Admin\Traits;
 
-use Klaara\Admin\Form;
-use Klaara\Admin\Grid;
-use Klaara\Admin\Tree;
+use Arcplg\Admin\Form;
+use Arcplg\Admin\Grid;
+use Arcplg\Admin\Tree;
 
 /**
  * @deprecated

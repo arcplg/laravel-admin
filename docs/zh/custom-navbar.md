@@ -2,9 +2,9 @@
 
 从版本`1.5.6`开始，可以在顶部导航条上添加html元素了,  打开`app/Admin/bootstrap.php`：
 ```php
-use Klaara\Admin\Facades\Admin;
+use Arcplg\Admin\Facades\Admin;
 
-Admin::navbar(function (\Klaara\Admin\Widgets\Navbar $navbar) {
+Admin::navbar(function (\Arcplg\Admin\Widgets\Navbar $navbar) {
 
     $navbar->left('html...');
 

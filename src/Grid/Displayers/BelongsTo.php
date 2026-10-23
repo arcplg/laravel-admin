@@ -1,9 +1,9 @@
 <?php
 
-namespace Klaara\Admin\Grid\Displayers;
+namespace Arcplg\Admin\Grid\Displayers;
 
-use Klaara\Admin\Admin;
-use Klaara\Admin\Grid\Selectable;
+use Arcplg\Admin\Admin;
+use Arcplg\Admin\Grid\Selectable;
 
 class BelongsTo extends AbstractDisplayer
 {
@@ -38,7 +38,7 @@ class BelongsTo extends AbstractDisplayer
     {
         if (!class_exists($selectable) || !is_subclass_of($selectable, Selectable::class)) {
             throw new \InvalidArgumentException(
-                "[Class [{$selectable}] must be a sub class of Klaara\Admin\Grid\Selectable"
+                "[Class [{$selectable}] must be a sub class of Arcplg\Admin\Grid\Selectable"
             );
         }
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace Klaara\Admin\Middleware;
+namespace Arcplg\Admin\Middleware;
 
-use Klaara\Admin\Auth\Database\OperationLog as OperationLogModel;
-use Klaara\Admin\Facades\Admin;
+use Arcplg\Admin\Auth\Database\OperationLog as OperationLogModel;
+use Arcplg\Admin\Facades\Admin;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 

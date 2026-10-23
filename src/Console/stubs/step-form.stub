@@ -2,7 +2,7 @@
 
 namespace DummyNamespace;
 
-use Klaara\Admin\Widgets\StepForm;
+use Arcplg\Admin\Widgets\StepForm;
 use Illuminate\Http\Request;
 
 class DummyClass extends StepForm

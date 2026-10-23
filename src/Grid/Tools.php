@@ -1,12 +1,12 @@
 <?php
 
-namespace Klaara\Admin\Grid;
+namespace Arcplg\Admin\Grid;
 
-use Klaara\Admin\Actions\GridAction;
-use Klaara\Admin\Grid;
-use Klaara\Admin\Grid\Tools\AbstractTool;
-use Klaara\Admin\Grid\Tools\BatchActions;
-use Klaara\Admin\Grid\Tools\FilterButton;
+use Arcplg\Admin\Actions\GridAction;
+use Arcplg\Admin\Grid;
+use Arcplg\Admin\Grid\Tools\AbstractTool;
+use Arcplg\Admin\Grid\Tools\BatchActions;
+use Arcplg\Admin\Grid\Tools\FilterButton;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;

@@ -19,7 +19,7 @@ php artisan vendor:publish --provider="Maatwebsite\Excel\ExcelServiceProvider"
 
 namespace App\Admin\Extensions;
 
-use Klaara\Admin\Grid\Exporters\AbstractExporter;
+use Arcplg\Admin\Grid\Exporters\AbstractExporter;
 use Maatwebsite\Excel\Facades\Excel;
 use Illuminate\Support\Arr;
 

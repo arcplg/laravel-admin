@@ -1,16 +1,16 @@
 <?php
 
-namespace Klaara\Admin;
+namespace Arcplg\Admin;
 
 use Closure;
-use Klaara\Admin\Exception\Handler;
-use Klaara\Admin\Grid\Column;
-use Klaara\Admin\Grid\Concerns;
-use Klaara\Admin\Grid\Displayers;
-use Klaara\Admin\Grid\Model;
-use Klaara\Admin\Grid\Row;
-use Klaara\Admin\Grid\Tools;
-use Klaara\Admin\Traits\ShouldSnakeAttributes;
+use Arcplg\Admin\Exception\Handler;
+use Arcplg\Admin\Grid\Column;
+use Arcplg\Admin\Grid\Concerns;
+use Arcplg\Admin\Grid\Displayers;
+use Arcplg\Admin\Grid\Model;
+use Arcplg\Admin\Grid\Row;
+use Arcplg\Admin\Grid\Tools;
+use Arcplg\Admin\Traits\ShouldSnakeAttributes;
 use Illuminate\Database\Eloquent\Model as Eloquent;
 use Illuminate\Database\Eloquent\Relations;
 use Illuminate\Support\Collection;
@@ -43,7 +43,7 @@ class Grid
     /**
      * The grid data model instance.
      *
-     * @var \Klaara\Admin\Grid\Model|\Illuminate\Database\Eloquent\Builder
+     * @var \Arcplg\Admin\Grid\Model|\Illuminate\Database\Eloquent\Builder
      */
     protected $model;
 

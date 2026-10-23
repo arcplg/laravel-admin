@@ -1,6 +1,6 @@
 <?php
 
-namespace Klaara\Admin\Grid\Filter;
+namespace Arcplg\Admin\Grid\Filter;
 
 class Hidden extends AbstractFilter
 {

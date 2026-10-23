@@ -1,17 +1,17 @@
 <?php
 
-namespace Klaara\Admin\Facades;
+namespace Arcplg\Admin\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
  * Class Admin.
  *
- * @method static \Klaara\Admin\Grid grid($model, \Closure $callable)
- * @method static \Klaara\Admin\Form form($model, \Closure $callable)
- * @method static \Klaara\Admin\Show show($model, $callable = null)
- * @method static \Klaara\Admin\Tree tree($model, \Closure $callable = null)
- * @method static \Klaara\Admin\Layout\Content content(\Closure $callable = null)
+ * @method static \Arcplg\Admin\Grid grid($model, \Closure $callable)
+ * @method static \Arcplg\Admin\Form form($model, \Closure $callable)
+ * @method static \Arcplg\Admin\Show show($model, $callable = null)
+ * @method static \Arcplg\Admin\Tree tree($model, \Closure $callable = null)
+ * @method static \Arcplg\Admin\Layout\Content content(\Closure $callable = null)
  * @method static \Illuminate\Contracts\View\Factory|\Illuminate\View\View|void css($css = null)
  * @method static \Illuminate\Contracts\View\Factory|\Illuminate\View\View|void js($js = null)
  * @method static \Illuminate\Contracts\View\Factory|\Illuminate\View\View|void headerJs($js = null)
@@ -29,12 +29,12 @@ use Illuminate\Support\Facades\Facade;
  * @method static void bootstrap()
  * @method static void routes()
  *
- * @see \Klaara\Admin\Admin
+ * @see \Arcplg\Admin\Admin
  */
 class Admin extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \Klaara\Admin\Admin::class;
+        return \Arcplg\Admin\Admin::class;
     }
 }

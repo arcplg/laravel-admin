@@ -2,9 +2,9 @@
 
 namespace Tests\Controllers;
 
-use Klaara\Admin\Controllers\AdminController;
-use Klaara\Admin\Form;
-use Klaara\Admin\Grid;
+use Arcplg\Admin\Controllers\AdminController;
+use Arcplg\Admin\Form;
+use Arcplg\Admin\Grid;
 use Tests\Models\Tag;
 use Tests\Models\User;
 

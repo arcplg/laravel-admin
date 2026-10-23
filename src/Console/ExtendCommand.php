@@ -1,6 +1,6 @@
 <?php
 
-namespace Klaara\Admin\Console;
+namespace Arcplg\Admin\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;

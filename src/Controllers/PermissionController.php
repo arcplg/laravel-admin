@@ -1,10 +1,10 @@
 <?php
 
-namespace Klaara\Admin\Controllers;
+namespace Arcplg\Admin\Controllers;
 
-use Klaara\Admin\Form;
-use Klaara\Admin\Grid;
-use Klaara\Admin\Show;
+use Arcplg\Admin\Form;
+use Arcplg\Admin\Grid;
+use Arcplg\Admin\Show;
 use Illuminate\Support\Str;
 
 class PermissionController extends AdminController

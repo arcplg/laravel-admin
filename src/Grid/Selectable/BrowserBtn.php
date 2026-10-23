@@ -1,6 +1,6 @@
 <?php
 
-namespace Klaara\Admin\Grid\Selectable;
+namespace Arcplg\Admin\Grid\Selectable;
 
 use Illuminate\Contracts\Support\Renderable;
 

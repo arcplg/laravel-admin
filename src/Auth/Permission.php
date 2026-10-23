@@ -1,9 +1,9 @@
 <?php
 
-namespace Klaara\Admin\Auth;
+namespace Arcplg\Admin\Auth;
 
-use Klaara\Admin\Facades\Admin;
-use Klaara\Admin\Middleware\Pjax;
+use Arcplg\Admin\Facades\Admin;
+use Arcplg\Admin\Middleware\Pjax;
 
 class Permission
 {

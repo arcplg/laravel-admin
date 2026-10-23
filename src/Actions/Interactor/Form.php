@@ -1,10 +1,10 @@
 <?php
 
-namespace Klaara\Admin\Actions\Interactor;
+namespace Arcplg\Admin\Actions\Interactor;
 
-use Klaara\Admin\Actions\RowAction;
-use Klaara\Admin\Admin;
-use Klaara\Admin\Form\Field;
+use Arcplg\Admin\Actions\RowAction;
+use Arcplg\Admin\Admin;
+use Arcplg\Admin\Form\Field;
 use Illuminate\Http\Request;
 use Illuminate\Support\MessageBag;
 use Illuminate\Validation\ValidationException;

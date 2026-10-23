@@ -1,9 +1,9 @@
 <?php
 
-namespace Klaara\Admin\Grid\Concerns;
+namespace Arcplg\Admin\Grid\Concerns;
 
 use Closure;
-use Klaara\Admin\Grid\Filter;
+use Arcplg\Admin\Grid\Filter;
 use Illuminate\Support\Collection;
 
 trait HasFilter
@@ -11,7 +11,7 @@ trait HasFilter
     /**
      * The grid Filter.
      *
-     * @var \Klaara\Admin\Grid\Filter
+     * @var \Arcplg\Admin\Grid\Filter
      */
     protected $filter;
 

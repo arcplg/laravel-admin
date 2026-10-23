@@ -1,6 +1,6 @@
 <?php
 
-namespace Klaara\Admin\Console;
+namespace Arcplg\Admin\Console;
 
 use Illuminate\Console\Command;
 
@@ -28,7 +28,7 @@ class PublishCommand extends Command
     public function handle()
     {
         $force = $this->option('force');
-        $options = ['--provider' => 'Klaara\Admin\AdminServiceProvider'];
+        $options = ['--provider' => 'Arcplg\Admin\AdminServiceProvider'];
         if ($force == true) {
             $options['--force'] = true;
         }

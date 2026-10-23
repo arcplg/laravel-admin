@@ -1,6 +1,6 @@
 <?php
 
-namespace Klaara\Admin\Show;
+namespace Arcplg\Admin\Show;
 
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;

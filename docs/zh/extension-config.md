@@ -19,7 +19,7 @@ $ php artisan migrate
 
 namespace App\Providers;
 
-use Klaara\Admin\Config\Config;
+use Arcplg\Admin\Config\Config;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider

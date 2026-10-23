@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin\Grid\Filter\Presenter;
+namespace Arcplg\Admin\Grid\Filter\Presenter;
 
-use Klaara\Admin\Grid\Filter\AbstractFilter;
+use Arcplg\Admin\Grid\Filter\AbstractFilter;
 
 abstract class Presenter
 {

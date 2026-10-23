@@ -1,9 +1,9 @@
 <?php
 
-namespace Klaara\Admin\Layout;
+namespace Arcplg\Admin\Layout;
 
 use Closure;
-use Klaara\Admin\Facades\Admin;
+use Arcplg\Admin\Facades\Admin;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Arr;
 

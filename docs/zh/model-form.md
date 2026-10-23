@@ -1,6 +1,6 @@
 # 基于数据模型的表单
 
-`Klaara\Admin\Form`类用于生成基于数据模型的表单，先来个例子，数据库中有`movies`表
+`Arcplg\Admin\Form`类用于生成基于数据模型的表单，先来个例子，数据库中有`movies`表
 
 ```sql
 CREATE TABLE `movies` (
@@ -23,8 +23,8 @@ CREATE TABLE `movies` (
 ```php
 
 use App\Models\Movie;
-use Klaara\Admin\Form;
-use Klaara\Admin\Facades\Admin;
+use Arcplg\Admin\Form;
+use Arcplg\Admin\Facades\Admin;
 
 $grid = Admin::form(Movie::class, function(Form $form){
 

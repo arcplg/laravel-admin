@@ -1,10 +1,10 @@
 <?php
 
-namespace Klaara\Admin\Form;
+namespace Arcplg\Admin\Form;
 
-use Klaara\Admin\Admin;
-use Klaara\Admin\Form;
-use Klaara\Admin\Widgets\Form as WidgetForm;
+use Arcplg\Admin\Admin;
+use Arcplg\Admin\Form;
+use Arcplg\Admin\Widgets\Form as WidgetForm;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
@@ -92,7 +92,7 @@ class NestedForm
     protected $original = [];
 
     /**
-     * @var \Klaara\Admin\Form|\Klaara\Admin\Widgets\Form
+     * @var \Arcplg\Admin\Form|\Arcplg\Admin\Widgets\Form
      */
     protected $form;
 
@@ -290,7 +290,7 @@ class NestedForm
                 $value = $field->prepare($value);
             }
 
-            if (($field instanceof \Klaara\Admin\Form\Field\Hidden) || $value != $field->original()) {
+            if (($field instanceof \Arcplg\Admin\Form\Field\Hidden) || $value != $field->original()) {
                 if (is_array($columns)) {
                     foreach ($columns as $name => $column) {
                         Arr::set($prepared, $column, $value[$name]);

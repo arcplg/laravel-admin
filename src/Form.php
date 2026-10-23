@@ -1,18 +1,18 @@
 <?php
 
-namespace Klaara\Admin;
+namespace Arcplg\Admin;
 
 use Closure;
-use Klaara\Admin\Exception\Handler;
-use Klaara\Admin\Form\Builder;
-use Klaara\Admin\Form\Concerns\HandleCascadeFields;
-use Klaara\Admin\Form\Concerns\HasFields;
-use Klaara\Admin\Form\Concerns\HasHooks;
-use Klaara\Admin\Form\Field;
-use Klaara\Admin\Form\Layout\Layout;
-use Klaara\Admin\Form\Row;
-use Klaara\Admin\Form\Tab;
-use Klaara\Admin\Traits\ShouldSnakeAttributes;
+use Arcplg\Admin\Exception\Handler;
+use Arcplg\Admin\Form\Builder;
+use Arcplg\Admin\Form\Concerns\HandleCascadeFields;
+use Arcplg\Admin\Form\Concerns\HasFields;
+use Arcplg\Admin\Form\Concerns\HasHooks;
+use Arcplg\Admin\Form\Field;
+use Arcplg\Admin\Form\Layout\Layout;
+use Arcplg\Admin\Form\Row;
+use Arcplg\Admin\Form\Tab;
+use Arcplg\Admin\Traits\ShouldSnakeAttributes;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
@@ -1421,7 +1421,7 @@ class Form implements Renderable
      *
      * @param Closure $callback
      *
-     * @return \Klaara\Admin\Form\Footer
+     * @return \Arcplg\Admin\Form\Footer
      */
     public function footer(?Closure $callback = null)
     {

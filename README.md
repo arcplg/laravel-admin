@@ -14,20 +14,20 @@
 </p>
 
 <p align="center">
-    <a href="https://packagist.org/packages/klaara/laravel-admin">
-        <img src="https://img.shields.io/packagist/l/klaara/laravel-admin.svg?maxAge=2592000&&style=flat-square" alt="Packagist">
+    <a href="https://packagist.org/packages/arcplg/laravel-admin">
+        <img src="https://img.shields.io/packagist/l/arcplg/laravel-admin.svg?maxAge=2592000&&style=flat-square" alt="Packagist">
     </a>
-    <a href="https://packagist.org/packages/klaara/laravel-admin">
-        <img src="https://img.shields.io/packagist/dt/klaara/laravel-admin.svg?style=flat-square" alt="Total Downloads">
+    <a href="https://packagist.org/packages/arcplg/laravel-admin">
+        <img src="https://img.shields.io/packagist/dt/arcplg/laravel-admin.svg?style=flat-square" alt="Total Downloads">
     </a>
-    <a href="https://github.com/iamrabineupane/klaara-laravel-admin">
+    <a href="https://github.com/iamrabineupane/arcplg-laravel-admin">
         <img src="https://img.shields.io/badge/Awesome-Laravel-brightgreen.svg?style=flat-square" alt="Awesome Laravel">
     </a>
 </p>
 
 <p align="center">
     Maintained fork of <a href="https://github.com/z-song/laravel-admin">z-song/laravel-admin</a> for Laravel 10/11/12.
-    Repository: <a href="https://github.com/iamrabineupane/klaara-laravel-admin">iamrabineupane/klaara-laravel-admin</a> |
+    Repository: <a href="https://github.com/iamrabineupane/arcplg-laravel-admin">iamrabineupane/arcplg-laravel-admin</a> |
     <a href="FORK.md">What changed in this fork</a>
 </p>
 
@@ -57,13 +57,13 @@ Installation
 First, install laravel 5.5, and make sure that the database connection settings are correct.
 
 ```
-composer require klaara/laravel-admin
+composer require arcplg/laravel-admin
 ```
 
 Then run these commands to publish assets and config：
 
 ```
-php artisan vendor:publish --provider="Klaara\Admin\AdminServiceProvider"
+php artisan vendor:publish --provider="Arcplg\Admin\AdminServiceProvider"
 ```
 After run command you can find config file in `config/admin.php`, in this file you can change the install directory,db connection or table names.
 
@@ -80,7 +80,7 @@ The file `config/admin.php` contains an array of configurations, you can find th
 
 Right to left support
 ------------
-just go to this path `<YOUR_PROJECT_PATH>\vendor\klaara\laravel-admin\src\Traits\HasAssets.php` and modify `$baseCss` array for loading right to left (rtl) version of bootstap and AdminLTE css files.    
+just go to this path `<YOUR_PROJECT_PATH>\vendor\arcplg\laravel-admin\src\Traits\HasAssets.php` and modify `$baseCss` array for loading right to left (rtl) version of bootstap and AdminLTE css files.    
 **bootstrap.min.css** change it to **bootstrap.rtl.min.css**    
 **AdminLTE.min.css** change it to **AdminLTE.rtl.min.css**  
 

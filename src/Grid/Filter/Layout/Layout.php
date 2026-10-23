@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin\Grid\Filter\Layout;
+namespace Arcplg\Admin\Grid\Filter\Layout;
 
-use Klaara\Admin\Grid\Filter;
+use Arcplg\Admin\Grid\Filter;
 use Illuminate\Support\Collection;
 
 class Layout

@@ -3,10 +3,10 @@
 namespace DummyNamespace;
 
 use DummyModelNamespace;
-use Klaara\Admin\Controllers\AdminController;
-use Klaara\Admin\Form;
-use Klaara\Admin\Grid;
-use Klaara\Admin\Show;
+use Arcplg\Admin\Controllers\AdminController;
+use Arcplg\Admin\Form;
+use Arcplg\Admin\Grid;
+use Arcplg\Admin\Show;
 
 class DummyClass extends AdminController
 {

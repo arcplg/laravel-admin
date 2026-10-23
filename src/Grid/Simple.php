@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin\Grid;
+namespace Arcplg\Admin\Grid;
 
-use Klaara\Admin\Grid;
+use Arcplg\Admin\Grid;
 use Illuminate\Contracts\Support\Renderable;
 
 /**

@@ -1,9 +1,9 @@
 <?php
 
-namespace Klaara\Admin;
+namespace Arcplg\Admin;
 
 use Closure;
-use Klaara\Admin\Tree\Tools;
+use Arcplg\Admin\Tree\Tools;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
 

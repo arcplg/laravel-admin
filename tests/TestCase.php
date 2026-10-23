@@ -21,14 +21,14 @@ class TestCase extends BaseTestCase
 
         $app->booting(function () {
             $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-            $loader->alias('Admin', \Klaara\Admin\Facades\Admin::class);
+            $loader->alias('Admin', \Arcplg\Admin\Facades\Admin::class);
         });
 
         $app->make('Illuminate\Contracts\Console\Kernel')->bootstrap();
 
         $app->register(\Illuminate\Database\Eloquent\LegacyFactoryServiceProvider::class);
 
-        $app->register('Klaara\Admin\AdminServiceProvider');
+        $app->register('Arcplg\Admin\AdminServiceProvider');
 
         return $app;
     }
@@ -52,7 +52,7 @@ class TestCase extends BaseTestCase
             $this->app['config']->set($key, $value);
         }
 
-        $this->artisan('vendor:publish', ['--provider' => 'Klaara\Admin\AdminServiceProvider']);
+        $this->artisan('vendor:publish', ['--provider' => 'Arcplg\Admin\AdminServiceProvider']);
 
         Schema::defaultStringLength(191);
 
@@ -68,9 +68,9 @@ class TestCase extends BaseTestCase
 
         require __DIR__.'/seeds/factory.php';
 
-//        \Klaara\Admin\Admin::$css = [];
-//        \Klaara\Admin\Admin::$js = [];
-//        \Klaara\Admin\Admin::$script = [];
+//        \Arcplg\Admin\Admin::$css = [];
+//        \Arcplg\Admin\Admin::$js = [];
+//        \Arcplg\Admin\Admin::$script = [];
     }
 
     protected function tearDown(): void

@@ -1,6 +1,6 @@
 <?php
 
-namespace Klaara\Admin\Exception;
+namespace Arcplg\Admin\Exception;
 
 use Illuminate\Support\MessageBag;
 use Illuminate\Support\ViewErrorBag;

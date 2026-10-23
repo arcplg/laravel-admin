@@ -1,9 +1,9 @@
 <?php
 
-namespace Klaara\Admin\Controllers;
+namespace Arcplg\Admin\Controllers;
 
-use Klaara\Admin\Auth\Database\OperationLog;
-use Klaara\Admin\Grid;
+use Arcplg\Admin\Auth\Database\OperationLog;
+use Arcplg\Admin\Grid;
 use Illuminate\Support\Arr;
 
 class LogController extends AdminController

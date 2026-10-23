@@ -1,6 +1,6 @@
 <?php
 
-namespace Klaara\Admin\Actions;
+namespace Arcplg\Admin\Actions;
 
 use Illuminate\Http\Request;
 

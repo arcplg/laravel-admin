@@ -1,6 +1,6 @@
 <?php
 
-namespace Klaara\Admin\Traits;
+namespace Arcplg\Admin\Traits;
 
 trait HasAssets
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin\Layout;
+namespace Arcplg\Admin\Layout;
 
-use Klaara\Admin\Grid;
+use Arcplg\Admin\Grid;
 use Illuminate\Contracts\Support\Renderable;
 
 class Column implements Buildable

@@ -1,6 +1,6 @@
 <?php
 
-use Klaara\Admin\Auth\Database\Administrator;
+use Arcplg\Admin\Auth\Database\Administrator;
 use Tests\Models\User as UserModel;
 
 class UserFormTest extends TestCase

@@ -1,11 +1,11 @@
 <?php
 
-namespace Klaara\Admin\Form;
+namespace Arcplg\Admin\Form;
 
 use Closure;
-use Klaara\Admin\Admin;
-use Klaara\Admin\Form;
-use Klaara\Admin\Widgets\Form as WidgetForm;
+use Arcplg\Admin\Admin;
+use Arcplg\Admin\Form;
+use Arcplg\Admin\Widgets\Form as WidgetForm;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Arr;
@@ -1522,7 +1522,7 @@ class Field implements Renderable
     /**
      * @param \Closure $callback
      *
-     * @return \Klaara\Admin\Form\Field
+     * @return \Arcplg\Admin\Form\Field
      */
     public function with(Closure $callback): self
     {

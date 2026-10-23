@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin\Grid\Concerns;
+namespace Arcplg\Admin\Grid\Concerns;
 
-use Klaara\Admin\Admin;
+use Arcplg\Admin\Admin;
 
 trait HasHotKeys
 {

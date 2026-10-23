@@ -1,10 +1,10 @@
 <?php
 
-namespace Klaara\Admin\Grid\Concerns;
+namespace Arcplg\Admin\Grid\Concerns;
 
-use Klaara\Admin\Grid\Column;
-use Klaara\Admin\Grid\Model;
-use Klaara\Admin\Grid\Tools;
+use Arcplg\Admin\Grid\Column;
+use Arcplg\Admin\Grid\Model;
+use Arcplg\Admin\Grid\Tools;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;

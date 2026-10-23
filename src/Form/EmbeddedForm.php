@@ -1,9 +1,9 @@
 <?php
 
-namespace Klaara\Admin\Form;
+namespace Arcplg\Admin\Form;
 
-use Klaara\Admin\Form;
-use Klaara\Admin\Widgets\Form as WidgetForm;
+use Arcplg\Admin\Form;
+use Arcplg\Admin\Widgets\Form as WidgetForm;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 

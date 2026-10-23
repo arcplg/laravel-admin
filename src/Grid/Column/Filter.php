@@ -1,9 +1,9 @@
 <?php
 
-namespace Klaara\Admin\Grid\Column;
+namespace Arcplg\Admin\Grid\Column;
 
-use Klaara\Admin\Grid\Column;
-use Klaara\Admin\Grid\Model;
+use Arcplg\Admin\Grid\Column;
+use Arcplg\Admin\Grid\Model;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Arr;
 

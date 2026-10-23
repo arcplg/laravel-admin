@@ -1,9 +1,9 @@
 <?php
 
-namespace Klaara\Admin\Show;
+namespace Arcplg\Admin\Show;
 
-use Klaara\Admin\Show;
-use Klaara\Admin\Widgets\Carousel;
+use Arcplg\Admin\Show;
+use Arcplg\Admin\Widgets\Carousel;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;

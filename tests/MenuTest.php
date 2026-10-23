@@ -1,7 +1,7 @@
 <?php
 
-use Klaara\Admin\Auth\Database\Administrator;
-use Klaara\Admin\Auth\Database\Menu;
+use Arcplg\Admin\Auth\Database\Administrator;
+use Arcplg\Admin\Auth\Database\Menu;
 
 class MenuTest extends TestCase
 {

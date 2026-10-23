@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin\Actions\Interactor;
+namespace Arcplg\Admin\Actions\Interactor;
 
-use Klaara\Admin\Actions\Action;
+use Arcplg\Admin\Actions\Action;
 
 abstract class Interactor
 {

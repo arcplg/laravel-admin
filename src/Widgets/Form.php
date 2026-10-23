@@ -1,12 +1,12 @@
 <?php
 
-namespace Klaara\Admin\Widgets;
+namespace Arcplg\Admin\Widgets;
 
 use Closure;
-use Klaara\Admin\Facades\Admin;
-use Klaara\Admin\Form as BaseForm;
-use Klaara\Admin\Form\Field;
-use Klaara\Admin\Layout\Content;
+use Arcplg\Admin\Facades\Admin;
+use Arcplg\Admin\Form as BaseForm;
+use Arcplg\Admin\Form\Field;
+use Arcplg\Admin\Layout\Content;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Klaara\Admin\Show;
+namespace Arcplg\Admin\Show;
 
 class Divider extends Field
 {

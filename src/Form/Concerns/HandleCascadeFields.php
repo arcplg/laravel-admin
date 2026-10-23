@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin\Form\Concerns;
+namespace Arcplg\Admin\Form\Concerns;
 
-use Klaara\Admin\Form\Field;
+use Arcplg\Admin\Form\Field;
 
 trait HandleCascadeFields
 {

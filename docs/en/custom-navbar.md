@@ -2,9 +2,9 @@
 
 Since version `1.5.6`, you can add the html element to the top navigation bar, open `app/Admin/bootstrap.php`:
 ```php
-use Klaara\Admin\Facades\Admin;
+use Arcplg\Admin\Facades\Admin;
 
-Admin::navbar(function (\Klaara\Admin\Widgets\Navbar $navbar) {
+Admin::navbar(function (\Arcplg\Admin\Widgets\Navbar $navbar) {
 
     $navbar->left('html...');
 

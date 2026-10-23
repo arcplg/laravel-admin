@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin\Form\Field;
+namespace Arcplg\Admin\Form\Field;
 
-use Klaara\Admin\Admin;
+use Arcplg\Admin\Admin;
 
 class BelongsTo extends Select
 {

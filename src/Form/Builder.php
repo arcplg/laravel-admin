@@ -1,10 +1,10 @@
 <?php
 
-namespace Klaara\Admin\Form;
+namespace Arcplg\Admin\Form;
 
-use Klaara\Admin\Admin;
-use Klaara\Admin\Form;
-use Klaara\Admin\Form\Field\Hidden;
+use Arcplg\Admin\Admin;
+use Arcplg\Admin\Form;
+use Arcplg\Admin\Form\Field\Hidden;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\URL;

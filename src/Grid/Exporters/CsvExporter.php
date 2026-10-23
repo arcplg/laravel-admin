@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin\Grid\Exporters;
+namespace Arcplg\Admin\Grid\Exporters;
 
-use Klaara\Admin\Grid\Column;
+use Arcplg\Admin\Grid\Column;
 
 class CsvExporter extends AbstractExporter
 {

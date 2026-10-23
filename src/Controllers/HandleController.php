@@ -1,12 +1,12 @@
 <?php
 
-namespace Klaara\Admin\Controllers;
+namespace Arcplg\Admin\Controllers;
 
-use Klaara\Admin\Actions\Action;
-use Klaara\Admin\Actions\GridAction;
-use Klaara\Admin\Actions\Response;
-use Klaara\Admin\Actions\RowAction;
-use Klaara\Admin\Widgets\Form;
+use Arcplg\Admin\Actions\Action;
+use Arcplg\Admin\Actions\GridAction;
+use Arcplg\Admin\Actions\Response;
+use Arcplg\Admin\Actions\RowAction;
+use Arcplg\Admin\Widgets\Form;
 use Exception;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
@@ -158,7 +158,7 @@ class HandleController extends Controller
         $class = str_replace('_', '\\', $class);
 
         if (class_exists($class)) {
-            /** @var \Klaara\Admin\Grid\Selectable $selectable */
+            /** @var \Arcplg\Admin\Grid\Selectable $selectable */
             $selectable = new $class(...array_values($args));
 
             return $selectable->render();

@@ -1,10 +1,10 @@
 <?php
 
-namespace Klaara\Admin\Grid\Concerns;
+namespace Arcplg\Admin\Grid\Concerns;
 
-use Klaara\Admin\Grid;
-use Klaara\Admin\Grid\Exporter;
-use Klaara\Admin\Grid\Exporters\AbstractExporter;
+use Arcplg\Admin\Grid;
+use Arcplg\Admin\Grid\Exporter;
+use Arcplg\Admin\Grid\Exporters\AbstractExporter;
 
 trait CanExportGrid
 {

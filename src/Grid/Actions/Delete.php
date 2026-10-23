@@ -1,9 +1,9 @@
 <?php
 
-namespace Klaara\Admin\Grid\Actions;
+namespace Arcplg\Admin\Grid\Actions;
 
-use Klaara\Admin\Actions\Response;
-use Klaara\Admin\Actions\RowAction;
+use Arcplg\Admin\Actions\Response;
+use Arcplg\Admin\Actions\RowAction;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
 

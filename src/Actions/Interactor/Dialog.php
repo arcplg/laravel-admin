@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin\Actions\Interactor;
+namespace Arcplg\Admin\Actions\Interactor;
 
-use Klaara\Admin\Admin;
+use Arcplg\Admin\Admin;
 
 class Dialog extends Interactor
 {

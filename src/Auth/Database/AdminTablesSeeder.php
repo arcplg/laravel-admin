@@ -1,6 +1,6 @@
 <?php
 
-namespace Klaara\Admin\Auth\Database;
+namespace Arcplg\Admin\Auth\Database;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Hash;

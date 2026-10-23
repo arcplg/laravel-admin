@@ -1,6 +1,6 @@
 <?php
 
-namespace Klaara\Admin\Form\Field;
+namespace Arcplg\Admin\Form\Field;
 
 use Illuminate\Support\Str;
 use Intervention\Image\Constraint;

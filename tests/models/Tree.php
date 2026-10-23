@@ -2,7 +2,7 @@
 
 namespace Tests\Models;
 
-use Klaara\Admin\Traits\ModelTree;
+use Arcplg\Admin\Traits\ModelTree;
 use Illuminate\Database\Eloquent\Model;
 
 class Tree extends Model

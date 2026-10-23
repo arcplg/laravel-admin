@@ -1,9 +1,9 @@
 <?php
 
-namespace Klaara\Admin\Grid\Column;
+namespace Arcplg\Admin\Grid\Column;
 
-use Klaara\Admin\Admin;
-use Klaara\Admin\Grid\Model;
+use Arcplg\Admin\Admin;
+use Arcplg\Admin\Grid\Model;
 
 class RangeFilter extends Filter
 {

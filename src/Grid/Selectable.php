@@ -1,10 +1,10 @@
 <?php
 
-namespace Klaara\Admin\Grid;
+namespace Arcplg\Admin\Grid;
 
-use Klaara\Admin\Grid;
-use Klaara\Admin\Grid\Selectable\Checkbox;
-use Klaara\Admin\Grid\Selectable\Radio;
+use Arcplg\Admin\Grid;
+use Arcplg\Admin\Grid\Selectable\Checkbox;
+use Arcplg\Admin\Grid\Selectable\Radio;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 

@@ -1,8 +1,8 @@
 <?php
 
-use Klaara\Admin\Auth\Database\Administrator;
-use Klaara\Admin\Auth\Database\Permission;
-use Klaara\Admin\Auth\Database\Role;
+use Arcplg\Admin\Auth\Database\Administrator;
+use Arcplg\Admin\Auth\Database\Permission;
+use Arcplg\Admin\Auth\Database\Role;
 
 class PermissionsTest extends TestCase
 {

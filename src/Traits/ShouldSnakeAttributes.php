@@ -1,8 +1,8 @@
 <?php
 
-namespace Klaara\Admin\Traits;
+namespace Arcplg\Admin\Traits;
 
-use Klaara\Admin\Grid\Model as GridModel;
+use Arcplg\Admin\Grid\Model as GridModel;
 
 trait ShouldSnakeAttributes
 {

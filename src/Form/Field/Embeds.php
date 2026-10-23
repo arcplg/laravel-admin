@@ -1,10 +1,10 @@
 <?php
 
-namespace Klaara\Admin\Form\Field;
+namespace Arcplg\Admin\Form\Field;
 
-use Klaara\Admin\Form\EmbeddedForm;
-use Klaara\Admin\Form\Field;
-use Klaara\Admin\Widgets\Form as WidgetForm;
+use Arcplg\Admin\Form\EmbeddedForm;
+use Arcplg\Admin\Form\Field;
+use Arcplg\Admin\Widgets\Form as WidgetForm;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 
