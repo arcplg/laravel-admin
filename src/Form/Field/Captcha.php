@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Form\Field;
+namespace Arcplg\Admin\Form\Field;
 
-use Encore\Admin\Form;
+use Arcplg\Admin\Form;
 
 class Captcha extends Text
 {
@@ -20,7 +20,7 @@ class Captcha extends Text
         $this->label = trans('admin.captcha');
     }
 
-    public function setForm(Form $form = null)
+    public function setForm(?Form $form = null)
     {
         $this->form = $form;
 

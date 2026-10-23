@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Layout;
+namespace Arcplg\Admin\Layout;
 
 use Closure;
-use Encore\Admin\Facades\Admin;
+use Arcplg\Admin\Facades\Admin;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Arr;
 
@@ -45,7 +45,7 @@ class Content implements Renderable
      *
      * @param Closure|null $callback
      */
-    public function __construct(\Closure $callback = null)
+    public function __construct(?\Closure $callback = null)
     {
         if ($callback instanceof Closure) {
             $callback($this);

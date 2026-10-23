@@ -1,16 +1,16 @@
 <?php
 
-namespace Encore\Admin;
+namespace Arcplg\Admin;
 
 use Closure;
-use Encore\Admin\Exception\Handler;
-use Encore\Admin\Grid\Column;
-use Encore\Admin\Grid\Concerns;
-use Encore\Admin\Grid\Displayers;
-use Encore\Admin\Grid\Model;
-use Encore\Admin\Grid\Row;
-use Encore\Admin\Grid\Tools;
-use Encore\Admin\Traits\ShouldSnakeAttributes;
+use Arcplg\Admin\Exception\Handler;
+use Arcplg\Admin\Grid\Column;
+use Arcplg\Admin\Grid\Concerns;
+use Arcplg\Admin\Grid\Displayers;
+use Arcplg\Admin\Grid\Model;
+use Arcplg\Admin\Grid\Row;
+use Arcplg\Admin\Grid\Tools;
+use Arcplg\Admin\Traits\ShouldSnakeAttributes;
 use Illuminate\Database\Eloquent\Model as Eloquent;
 use Illuminate\Database\Eloquent\Relations;
 use Illuminate\Support\Collection;
@@ -43,7 +43,7 @@ class Grid
     /**
      * The grid data model instance.
      *
-     * @var \Encore\Admin\Grid\Model|\Illuminate\Database\Eloquent\Builder
+     * @var \Arcplg\Admin\Grid\Model|\Illuminate\Database\Eloquent\Builder
      */
     protected $model;
 
@@ -172,7 +172,7 @@ class Grid
      * @param Eloquent $model
      * @param Closure  $builder
      */
-    public function __construct(Eloquent $model, Closure $builder = null)
+    public function __construct(Eloquent $model, ?Closure $builder = null)
     {
         $this->model = new Model($model, $this);
         $this->keyName = $model->getKeyName();
@@ -202,7 +202,7 @@ class Grid
      *
      * @param Closure $callback
      */
-    public static function init(Closure $callback = null)
+    public static function init(?Closure $callback = null)
     {
         static::$initCallbacks[] = $callback;
     }
@@ -603,7 +603,7 @@ class Grid
      *
      * @return Collection|null
      */
-    public function rows(Closure $callable = null)
+    public function rows(?Closure $callable = null)
     {
         if (is_null($callable)) {
             return $this->rows;

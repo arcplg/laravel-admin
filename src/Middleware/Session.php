@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Middleware;
+namespace Arcplg\Admin\Middleware;
 
 use Illuminate\Http\Request;
 

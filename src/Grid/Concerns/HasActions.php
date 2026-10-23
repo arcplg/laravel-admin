@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Grid\Concerns;
+namespace Arcplg\Admin\Grid\Concerns;
 
 use Closure;
-use Encore\Admin\Grid;
+use Arcplg\Admin\Grid;
 
 trait HasActions
 {

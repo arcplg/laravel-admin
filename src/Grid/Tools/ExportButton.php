@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Grid\Tools;
+namespace Arcplg\Admin\Grid\Tools;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Grid;
+use Arcplg\Admin\Admin;
+use Arcplg\Admin\Grid;
 
 class ExportButton extends AbstractTool
 {

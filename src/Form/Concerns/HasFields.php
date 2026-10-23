@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Form\Concerns;
+namespace Arcplg\Admin\Form\Concerns;
 
-use Encore\Admin\Form\Field;
+use Arcplg\Admin\Form\Field;
 use Illuminate\Support\Arr;
 
 /**

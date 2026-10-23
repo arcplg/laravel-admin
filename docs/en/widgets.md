@@ -2,10 +2,10 @@
 
 ## Box
 
-`Encore\Admin\Widgets\Box` used to generate box components:
+`Arcplg\Admin\Widgets\Box` used to generate box components:
 
 ```php
-use Encore\Admin\Widgets\Box;
+use Arcplg\Admin\Widgets\Box;
 
 $box = new Box('Box Title', 'Box content');
 
@@ -37,9 +37,9 @@ The `$content` parameter is the content element of the Box, which can be either 
 
 ## Collapse
 
-`Encore\Admin\Widgets\Collapse` class used to generate folding components:
+`Arcplg\Admin\Widgets\Collapse` class used to generate folding components:
 ```php
-use Encore\Admin\Widgets\Collapse;
+use Arcplg\Admin\Widgets\Collapse;
 
 $collapse = new Collapse();
 
@@ -55,7 +55,7 @@ echo $collapse->render();
 
 ## Form
 
-`Encore\Admin\Widgets\Form` class is used to quickly build a form:
+`Arcplg\Admin\Widgets\Form` class is used to quickly build a form:
 
 ```php
 
@@ -86,10 +86,10 @@ echo $form->render();
 
 ## Infobox
 
-`Encore\Admin\Widgets\InfoBox` class is used to generate the information presentation block:
+`Arcplg\Admin\Widgets\InfoBox` class is used to generate the information presentation block:
 
 ```php
-use Encore\Admin\Widgets\InfoBox;
+use Arcplg\Admin\Widgets\InfoBox;
 
 $infoBox = new InfoBox('New Users', 'users', 'aqua', '/admin/users', '1024');
 
@@ -101,10 +101,10 @@ Refer to the section on the `InfoBox` in the `index()` method of the home page l
 
 ## Tab component
 
-`Encore\Admin\Widgets\Tab` class is used to generate the tab components:
+`Arcplg\Admin\Widgets\Tab` class is used to generate the tab components:
 
 ```php
-use Encore\Admin\Widgets\Tab;
+use Arcplg\Admin\Widgets\Tab;
 
 $tab = new Tab();
 
@@ -120,10 +120,10 @@ echo $tab->render();
 
 ## Table
 
-`Encore\Admin\Widgets\Table` class is used to generate tables:
+`Arcplg\Admin\Widgets\Table` class is used to generate tables:
 
 ```php
-use Encore\Admin\Widgets\Table;
+use Arcplg\Admin\Widgets\Table;
 
 // table 1
 $headers = ['Id', 'Email', 'Name', 'Company'];

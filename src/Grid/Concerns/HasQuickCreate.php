@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Concerns;
+namespace Arcplg\Admin\Grid\Concerns;
 
-use Encore\Admin\Grid\Tools\QuickCreate;
+use Arcplg\Admin\Grid\Tools\QuickCreate;
 
 trait HasQuickCreate
 {

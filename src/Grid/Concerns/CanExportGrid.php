@@ -1,10 +1,10 @@
 <?php
 
-namespace Encore\Admin\Grid\Concerns;
+namespace Arcplg\Admin\Grid\Concerns;
 
-use Encore\Admin\Grid;
-use Encore\Admin\Grid\Exporter;
-use Encore\Admin\Grid\Exporters\AbstractExporter;
+use Arcplg\Admin\Grid;
+use Arcplg\Admin\Grid\Exporter;
+use Arcplg\Admin\Grid\Exporters\AbstractExporter;
 
 trait CanExportGrid
 {

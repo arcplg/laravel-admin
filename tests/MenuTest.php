@@ -1,7 +1,7 @@
 <?php
 
-use Encore\Admin\Auth\Database\Administrator;
-use Encore\Admin\Auth\Database\Menu;
+use Arcplg\Admin\Auth\Database\Administrator;
+use Arcplg\Admin\Auth\Database\Menu;
 
 class MenuTest extends TestCase
 {

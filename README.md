@@ -14,28 +14,22 @@
 </p>
 
 <p align="center">
-    <a href="https://travis-ci.org/z-song/laravel-admin">
-        <img src="https://travis-ci.org/z-song/laravel-admin.svg?branch=master" alt="Build Status">
+    <a href="https://packagist.org/packages/arcplg/laravel-admin">
+        <img src="https://img.shields.io/packagist/l/arcplg/laravel-admin.svg?maxAge=2592000&&style=flat-square" alt="Packagist">
     </a>
-    <a href="https://styleci.io/repos/48796179">
-        <img src="https://styleci.io/repos/48796179/shield" alt="StyleCI">
+    <a href="https://packagist.org/packages/arcplg/laravel-admin">
+        <img src="https://img.shields.io/packagist/dt/arcplg/laravel-admin.svg?style=flat-square" alt="Total Downloads">
     </a>
-    <a href="https://packagist.org/packages/encore/laravel-admin">
-        <img src="https://img.shields.io/packagist/l/encore/laravel-admin.svg?maxAge=2592000&&style=flat-square" alt="Packagist">
-    </a>
-    <a href="https://packagist.org/packages/encore/laravel-admin">
-        <img src="https://img.shields.io/packagist/dt/encore/laravel-admin.svg?style=flat-square" alt="Total Downloads">
-    </a>
-    <a href="https://github.com/z-song/laravel-admin">
+    <a href="https://github.com/iamrabineupane/arcplg-laravel-admin">
         <img src="https://img.shields.io/badge/Awesome-Laravel-brightgreen.svg?style=flat-square" alt="Awesome Laravel">
     </a>
-    <a href="#backers" alt="sponsors on Open Collective">
-        <img src="https://opencollective.com/laravel-admin/backers/badge.svg?style=flat-square" />
-    </a> 
-    <a href="https://www.paypal.me/zousong" alt="Paypal donate">
-        <img src="https://img.shields.io/badge/Donate-Paypal-green.svg?style=flat-square" />
-    </a> 
-</div>
+</p>
+
+<p align="center">
+    Maintained fork of <a href="https://github.com/z-song/laravel-admin">z-song/laravel-admin</a> for Laravel 10/11/12.
+    Repository: <a href="https://github.com/iamrabineupane/arcplg-laravel-admin">iamrabineupane/arcplg-laravel-admin</a> |
+    <a href="FORK.md">What changed in this fork</a>
+</p>
 
 <p align="center">
     Inspired by <a href="https://github.com/sleeping-owl/admin" target="_blank">SleepingOwlAdmin</a> and <a href="https://github.com/zofe/rapyd-laravel" target="_blank">rapyd-laravel</a>.
@@ -51,25 +45,25 @@ Sponsor
 
 Requirements
 ------------
- - PHP >= 7.0.0
- - Laravel >= 5.5.0
+ - PHP >= 8.1
+ - Laravel 10 / 11 / 12
  - Fileinfo PHP Extension
 
 Installation
 ------------
 
-> This package requires PHP 7+ and Laravel 5.5, for old versions please refer to [1.4](https://laravel-admin.org/docs/v1.4/#/)
+> This package requires PHP 8.1+ and Laravel 10/11/12, for old versions please refer to [1.4](https://laravel-admin.org/docs/v1.4/#/)
 
 First, install laravel 5.5, and make sure that the database connection settings are correct.
 
 ```
-composer require encore/laravel-admin
+composer require arcplg/laravel-admin
 ```
 
 Then run these commands to publish assets and config：
 
 ```
-php artisan vendor:publish --provider="Encore\Admin\AdminServiceProvider"
+php artisan vendor:publish --provider="Arcplg\Admin\AdminServiceProvider"
 ```
 After run command you can find config file in `config/admin.php`, in this file you can change the install directory,db connection or table names.
 
@@ -86,7 +80,7 @@ The file `config/admin.php` contains an array of configurations, you can find th
 
 Right to left support
 ------------
-just go to this path `<YOUR_PROJECT_PATH>\vendor\encore\laravel-admin\src\Traits\HasAssets.php` and modify `$baseCss` array for loading right to left (rtl) version of bootstap and AdminLTE css files.    
+just go to this path `<YOUR_PROJECT_PATH>\vendor\arcplg\laravel-admin\src\Traits\HasAssets.php` and modify `$baseCss` array for loading right to left (rtl) version of bootstap and AdminLTE css files.    
 **bootstrap.min.css** change it to **bootstrap.rtl.min.css**    
 **AdminLTE.min.css** change it to **AdminLTE.rtl.min.css**  
 

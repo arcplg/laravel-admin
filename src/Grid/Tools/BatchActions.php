@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Tools;
+namespace Arcplg\Admin\Grid\Tools;
 
-use Encore\Admin\Admin;
+use Arcplg\Admin\Admin;
 use Illuminate\Support\Collection;
 
 class BatchActions extends AbstractTool
@@ -76,7 +76,7 @@ class BatchActions extends AbstractTool
      *
      * @return $this
      */
-    public function add($title, BatchAction $action = null)
+    public function add($title, ?BatchAction $action = null)
     {
         $id = $this->actions->count();
 

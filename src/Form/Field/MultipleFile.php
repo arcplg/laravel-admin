@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Form\Field;
+namespace Arcplg\Admin\Form\Field;
 
-use Encore\Admin\Form;
-use Encore\Admin\Form\Field;
+use Arcplg\Admin\Form;
+use Arcplg\Admin\Form\Field;
 use Illuminate\Support\Arr;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 
@@ -176,7 +176,7 @@ class MultipleFile extends Field
      *
      * @return mixed|string
      */
-    protected function prepareForeach(UploadedFile $file = null)
+    protected function prepareForeach(?UploadedFile $file = null)
     {
         $this->name = $this->getStoreName($file);
 

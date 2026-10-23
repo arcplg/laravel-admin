@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Form\Field;
+namespace Arcplg\Admin\Form\Field;
 
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 
@@ -27,7 +27,7 @@ class MultipleImage extends MultipleFile
      *
      * @return mixed|string
      */
-    protected function prepareForeach(UploadedFile $image = null)
+    protected function prepareForeach(?UploadedFile $image = null)
     {
         $this->name = $this->getStoreName($image);
 

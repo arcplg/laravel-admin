@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Grid\Concerns;
+namespace Arcplg\Admin\Grid\Concerns;
 
-use Encore\Admin\Grid;
-use Encore\Admin\Grid\Tools\ColumnSelector;
+use Arcplg\Admin\Grid;
+use Arcplg\Admin\Grid\Tools\ColumnSelector;
 use Illuminate\Support\Collection;
 
 trait CanHidesColumns

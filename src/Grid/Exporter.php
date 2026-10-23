@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Grid;
+namespace Arcplg\Admin\Grid;
 
-use Encore\Admin\Grid;
-use Encore\Admin\Grid\Exporters\CsvExporter;
+use Arcplg\Admin\Grid;
+use Arcplg\Admin\Grid\Exporters\CsvExporter;
 
 class Exporter
 {

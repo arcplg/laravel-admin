@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Actions\Interactor;
+namespace Arcplg\Admin\Actions\Interactor;
 
-use Encore\Admin\Actions\Action;
+use Arcplg\Admin\Actions\Action;
 
 abstract class Interactor
 {

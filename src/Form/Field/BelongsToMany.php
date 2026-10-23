@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Form\Field;
+namespace Arcplg\Admin\Form\Field;
 
-use Encore\Admin\Admin;
+use Arcplg\Admin\Admin;
 
 class BelongsToMany extends MultipleSelect
 {

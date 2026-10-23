@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Column;
+namespace Arcplg\Admin\Grid\Column;
 
-use Encore\Admin\Grid\Displayers;
+use Arcplg\Admin\Grid\Displayers;
 
 trait InlineEditing
 {

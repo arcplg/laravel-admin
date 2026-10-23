@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Console;
+namespace Arcplg\Admin\Console;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Facades\Admin as AdminFacade;
+use Arcplg\Admin\Admin;
+use Arcplg\Admin\Facades\Admin as AdminFacade;
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
 use MatthiasMullie\Minify;

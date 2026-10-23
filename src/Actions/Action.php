@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Actions;
+namespace Arcplg\Admin\Actions;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Form\Field;
+use Arcplg\Admin\Admin;
+use Arcplg\Admin\Form\Field;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 

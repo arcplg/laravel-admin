@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Actions;
+namespace Arcplg\Admin\Actions;
 
 use Illuminate\Validation\ValidationException;
 

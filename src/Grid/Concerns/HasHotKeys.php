@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Concerns;
+namespace Arcplg\Admin\Grid\Concerns;
 
-use Encore\Admin\Admin;
+use Arcplg\Admin\Admin;
 
 trait HasHotKeys
 {

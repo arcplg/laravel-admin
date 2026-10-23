@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Traits;
+namespace Arcplg\Admin\Traits;
 
-use Encore\Admin\Grid\Model as GridModel;
+use Arcplg\Admin\Grid\Model as GridModel;
 
 trait ShouldSnakeAttributes
 {

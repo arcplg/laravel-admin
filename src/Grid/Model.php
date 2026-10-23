@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Grid;
+namespace Arcplg\Admin\Grid;
 
-use Encore\Admin\Grid;
-use Encore\Admin\Middleware\Pjax;
+use Arcplg\Admin\Grid;
+use Arcplg\Admin\Middleware\Pjax;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
@@ -99,7 +99,7 @@ class Model
      * @param EloquentModel $model
      * @param Grid          $grid
      */
-    public function __construct(EloquentModel $model, Grid $grid = null)
+    public function __construct(EloquentModel $model, ?Grid $grid = null)
     {
         $this->model = $model;
 
@@ -279,7 +279,7 @@ class Model
      *
      * @return $this
      */
-    public function collection(\Closure $callback = null)
+    public function collection(?\Closure $callback = null)
     {
         $this->collectionCallback = $callback;
 

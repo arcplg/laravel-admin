@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Grid\Displayers;
+namespace Arcplg\Admin\Grid\Displayers;
 
-use Encore\Admin\Grid;
-use Encore\Admin\Grid\Column;
+use Arcplg\Admin\Grid;
+use Arcplg\Admin\Grid\Column;
 use Illuminate\Database\Eloquent\Model;
 
 abstract class AbstractDisplayer

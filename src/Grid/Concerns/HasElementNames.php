@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Grid\Concerns;
+namespace Arcplg\Admin\Grid\Concerns;
 
 trait HasElementNames
 {

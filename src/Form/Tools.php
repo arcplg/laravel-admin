@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Form;
+namespace Arcplg\Admin\Form;
 
-use Encore\Admin\Facades\Admin;
+use Arcplg\Admin\Facades\Admin;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;

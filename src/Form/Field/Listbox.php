@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Form\Field;
+namespace Arcplg\Admin\Form\Field;
 
 /**
  * Class ListBox.

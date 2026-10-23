@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Form;
+namespace Arcplg\Admin\Form;
 
-use Encore\Admin\Form;
-use Encore\Admin\Widgets\Form as WidgetForm;
+use Arcplg\Admin\Form;
+use Arcplg\Admin\Widgets\Form as WidgetForm;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 

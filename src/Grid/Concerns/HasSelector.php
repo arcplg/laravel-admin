@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Grid\Concerns;
+namespace Arcplg\Admin\Grid\Concerns;
 
-use Encore\Admin\Grid;
-use Encore\Admin\Grid\Tools\Selector;
+use Arcplg\Admin\Grid;
+use Arcplg\Admin\Grid\Tools\Selector;
 
 /**
  * @mixin Grid

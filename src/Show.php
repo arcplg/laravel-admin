@@ -1,12 +1,12 @@
 <?php
 
-namespace Encore\Admin;
+namespace Arcplg\Admin;
 
-use Encore\Admin\Show\Divider;
-use Encore\Admin\Show\Field;
-use Encore\Admin\Show\Panel;
-use Encore\Admin\Show\Relation;
-use Encore\Admin\Traits\ShouldSnakeAttributes;
+use Arcplg\Admin\Show\Divider;
+use Arcplg\Admin\Show\Field;
+use Arcplg\Admin\Show\Panel;
+use Arcplg\Admin\Show\Relation;
+use Arcplg\Admin\Traits\ShouldSnakeAttributes;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -101,7 +101,7 @@ class Show implements Renderable
      *
      * @param \Closure $callback
      */
-    public static function init(\Closure $callback = null)
+    public static function init(?\Closure $callback = null)
     {
         static::$initCallback = $callback;
     }

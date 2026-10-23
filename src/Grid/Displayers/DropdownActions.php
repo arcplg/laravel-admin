@@ -1,12 +1,12 @@
 <?php
 
-namespace Encore\Admin\Grid\Displayers;
+namespace Arcplg\Admin\Grid\Displayers;
 
-use Encore\Admin\Actions\RowAction;
-use Encore\Admin\Admin;
-use Encore\Admin\Grid\Actions\Delete;
-use Encore\Admin\Grid\Actions\Edit;
-use Encore\Admin\Grid\Actions\Show;
+use Arcplg\Admin\Actions\RowAction;
+use Arcplg\Admin\Admin;
+use Arcplg\Admin\Grid\Actions\Delete;
+use Arcplg\Admin\Grid\Actions\Edit;
+use Arcplg\Admin\Grid\Actions\Show;
 
 class DropdownActions extends Actions
 {

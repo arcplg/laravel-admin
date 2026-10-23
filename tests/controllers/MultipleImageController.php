@@ -2,9 +2,9 @@
 
 namespace Tests\Controllers;
 
-use Encore\Admin\Controllers\AdminController;
-use Encore\Admin\Form;
-use Encore\Admin\Grid;
+use Arcplg\Admin\Controllers\AdminController;
+use Arcplg\Admin\Form;
+use Arcplg\Admin\Grid;
 use Tests\Models\MultipleImage;
 
 class MultipleImageController extends AdminController

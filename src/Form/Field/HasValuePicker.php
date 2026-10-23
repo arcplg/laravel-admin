@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Form\Field;
+namespace Arcplg\Admin\Form\Field;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Form\Field;
+use Arcplg\Admin\Admin;
+use Arcplg\Admin\Form\Field;
 
 /**
  * @mixin Field
@@ -45,7 +45,7 @@ trait HasValuePicker
      *
      * @return $this
      */
-    protected function mountPicker(\Closure $callback = null)
+    protected function mountPicker(?\Closure $callback = null)
     {
         $this->picker && $this->picker->mount($this, $callback);
 

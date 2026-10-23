@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Controllers;
+namespace Arcplg\Admin\Controllers;
 
 trait HasResourceActions
 {

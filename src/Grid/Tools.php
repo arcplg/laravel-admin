@@ -1,12 +1,12 @@
 <?php
 
-namespace Encore\Admin\Grid;
+namespace Arcplg\Admin\Grid;
 
-use Encore\Admin\Actions\GridAction;
-use Encore\Admin\Grid;
-use Encore\Admin\Grid\Tools\AbstractTool;
-use Encore\Admin\Grid\Tools\BatchActions;
-use Encore\Admin\Grid\Tools\FilterButton;
+use Arcplg\Admin\Actions\GridAction;
+use Arcplg\Admin\Grid;
+use Arcplg\Admin\Grid\Tools\AbstractTool;
+use Arcplg\Admin\Grid\Tools\BatchActions;
+use Arcplg\Admin\Grid\Tools\FilterButton;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;

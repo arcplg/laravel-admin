@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Filter\Presenter;
+namespace Arcplg\Admin\Grid\Filter\Presenter;
 
-use Encore\Admin\Admin;
+use Arcplg\Admin\Admin;
 use Illuminate\Support\Arr;
 
 class DateTime extends Presenter

@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Console;
+namespace Arcplg\Admin\Console;
 
-use Encore\Admin\Auth\Database\Menu;
+use Arcplg\Admin\Auth\Database\Menu;
 use Illuminate\Console\Command;
 use Illuminate\Routing\Route;
 use Illuminate\Routing\Router;

@@ -1,10 +1,10 @@
 <?php
 
-namespace Encore\Admin\Controllers;
+namespace Arcplg\Admin\Controllers;
 
-use Encore\Admin\Facades\Admin;
-use Encore\Admin\Form;
-use Encore\Admin\Layout\Content;
+use Arcplg\Admin\Facades\Admin;
+use Arcplg\Admin\Form;
+use Arcplg\Admin\Layout\Content;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Hash;
@@ -45,7 +45,7 @@ class AuthController extends Controller
         $this->loginValidator($request->all())->validate();
 
         $credentials = $request->only([$this->username(), 'password']);
-        $remember = $request->get('remember', false);
+        $remember = $request->input('remember', false);
 
         if ($this->guard()->attempt($credentials, $remember)) {
             return $this->sendLoginResponse($request);

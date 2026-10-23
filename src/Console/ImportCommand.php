@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Console;
+namespace Arcplg\Admin\Console;
 
-use Encore\Admin\Admin;
+use Arcplg\Admin\Admin;
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
 

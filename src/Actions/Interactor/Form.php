@@ -1,10 +1,10 @@
 <?php
 
-namespace Encore\Admin\Actions\Interactor;
+namespace Arcplg\Admin\Actions\Interactor;
 
-use Encore\Admin\Actions\RowAction;
-use Encore\Admin\Admin;
-use Encore\Admin\Form\Field;
+use Arcplg\Admin\Actions\RowAction;
+use Arcplg\Admin\Admin;
+use Arcplg\Admin\Form\Field;
 use Illuminate\Http\Request;
 use Illuminate\Support\MessageBag;
 use Illuminate\Validation\ValidationException;

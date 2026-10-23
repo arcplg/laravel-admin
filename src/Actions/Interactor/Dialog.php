@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Actions\Interactor;
+namespace Arcplg\Admin\Actions\Interactor;
 
-use Encore\Admin\Admin;
+use Arcplg\Admin\Admin;
 
 class Dialog extends Interactor
 {

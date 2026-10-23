@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Form;
+namespace Arcplg\Admin\Form;
 
-use Encore\Admin\Admin;
+use Arcplg\Admin\Admin;
 use Illuminate\Contracts\Support\Renderable;
 
 class Footer implements Renderable

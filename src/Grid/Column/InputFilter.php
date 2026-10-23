@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Grid\Column;
+namespace Arcplg\Admin\Grid\Column;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Grid\Model;
+use Arcplg\Admin\Admin;
+use Arcplg\Admin\Grid\Model;
 
 class InputFilter extends Filter
 {

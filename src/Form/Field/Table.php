@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Form\Field;
+namespace Arcplg\Admin\Form\Field;
 
-use Encore\Admin\Form\NestedForm;
-use Encore\Admin\Widgets\Form as WidgetForm;
+use Arcplg\Admin\Form\NestedForm;
+use Arcplg\Admin\Widgets\Form as WidgetForm;
 
 class Table extends HasMany
 {

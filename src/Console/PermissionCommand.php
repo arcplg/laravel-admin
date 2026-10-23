@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Console;
+namespace Arcplg\Admin\Console;
 
-use Encore\Admin\Auth\Database\Permission;
+use Arcplg\Admin\Auth\Database\Permission;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;

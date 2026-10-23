@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Tools;
+namespace Arcplg\Admin\Grid\Tools;
 
-use Encore\Admin\Admin;
+use Arcplg\Admin\Admin;
 
 class FilterButton extends AbstractTool
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Grid\Actions;
+namespace Arcplg\Admin\Grid\Actions;
 
-use Encore\Admin\Actions\Response;
-use Encore\Admin\Actions\RowAction;
+use Arcplg\Admin\Actions\Response;
+use Arcplg\Admin\Actions\RowAction;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
 

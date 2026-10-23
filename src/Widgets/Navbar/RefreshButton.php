@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Widgets\Navbar;
+namespace Arcplg\Admin\Widgets\Navbar;
 
-use Encore\Admin\Admin;
+use Arcplg\Admin\Admin;
 use Illuminate\Contracts\Support\Renderable;
 
 class RefreshButton implements Renderable

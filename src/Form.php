@@ -1,18 +1,18 @@
 <?php
 
-namespace Encore\Admin;
+namespace Arcplg\Admin;
 
 use Closure;
-use Encore\Admin\Exception\Handler;
-use Encore\Admin\Form\Builder;
-use Encore\Admin\Form\Concerns\HandleCascadeFields;
-use Encore\Admin\Form\Concerns\HasFields;
-use Encore\Admin\Form\Concerns\HasHooks;
-use Encore\Admin\Form\Field;
-use Encore\Admin\Form\Layout\Layout;
-use Encore\Admin\Form\Row;
-use Encore\Admin\Form\Tab;
-use Encore\Admin\Traits\ShouldSnakeAttributes;
+use Arcplg\Admin\Exception\Handler;
+use Arcplg\Admin\Form\Builder;
+use Arcplg\Admin\Form\Concerns\HandleCascadeFields;
+use Arcplg\Admin\Form\Concerns\HasFields;
+use Arcplg\Admin\Form\Concerns\HasHooks;
+use Arcplg\Admin\Form\Field;
+use Arcplg\Admin\Form\Layout\Layout;
+use Arcplg\Admin\Form\Row;
+use Arcplg\Admin\Form\Tab;
+use Arcplg\Admin\Traits\ShouldSnakeAttributes;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
@@ -121,7 +121,7 @@ class Form implements Renderable
      * @param $model
      * @param \Closure $callback
      */
-    public function __construct($model, Closure $callback = null)
+    public function __construct($model, ?Closure $callback = null)
     {
         $this->model = $model;
 
@@ -1313,7 +1313,7 @@ class Form implements Renderable
      *
      * @return Form\Tools
      */
-    public function header(Closure $callback = null)
+    public function header(?Closure $callback = null)
     {
         if (func_num_args() === 0) {
             return $this->builder->getTools();
@@ -1421,9 +1421,9 @@ class Form implements Renderable
      *
      * @param Closure $callback
      *
-     * @return \Encore\Admin\Form\Footer
+     * @return \Arcplg\Admin\Form\Footer
      */
-    public function footer(Closure $callback = null)
+    public function footer(?Closure $callback = null)
     {
         if (func_num_args() === 0) {
             return $this->builder()->getFooter();

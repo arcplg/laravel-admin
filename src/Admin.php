@@ -1,13 +1,13 @@
 <?php
 
-namespace Encore\Admin;
+namespace Arcplg\Admin;
 
 use Closure;
-use Encore\Admin\Auth\Database\Menu;
-use Encore\Admin\Controllers\AuthController;
-use Encore\Admin\Layout\Content;
-use Encore\Admin\Traits\HasAssets;
-use Encore\Admin\Widgets\Navbar;
+use Arcplg\Admin\Auth\Database\Menu;
+use Arcplg\Admin\Controllers\AuthController;
+use Arcplg\Admin\Layout\Content;
+use Arcplg\Admin\Traits\HasAssets;
+use Arcplg\Admin\Widgets\Navbar;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Auth;
@@ -76,7 +76,7 @@ class Admin
      * @param $model
      * @param Closure $callable
      *
-     * @return \Encore\Admin\Grid
+     * @return \Arcplg\Admin\Grid
      *
      * @deprecated since v1.6.1
      */
@@ -89,7 +89,7 @@ class Admin
      * @param $model
      * @param Closure $callable
      *
-     * @return \Encore\Admin\Form
+     * @return \Arcplg\Admin\Form
      *
      *  @deprecated since v1.6.1
      */
@@ -104,9 +104,9 @@ class Admin
      * @param $model
      * @param Closure|null $callable
      *
-     * @return \Encore\Admin\Tree
+     * @return \Arcplg\Admin\Tree
      */
-    public function tree($model, Closure $callable = null)
+    public function tree($model, ?Closure $callable = null)
     {
         return new Tree($this->getModel($model), $callable);
     }
@@ -129,11 +129,11 @@ class Admin
     /**
      * @param Closure $callable
      *
-     * @return \Encore\Admin\Layout\Content
+     * @return \Arcplg\Admin\Layout\Content
      *
      * @deprecated since v1.6.1
      */
-    public function content(Closure $callable = null)
+    public function content(?Closure $callable = null)
     {
         return new Content($callable);
     }
@@ -264,7 +264,7 @@ class Admin
      *
      * @return Navbar
      */
-    public function navbar(Closure $builder = null)
+    public function navbar(?Closure $builder = null)
     {
         if (is_null($builder)) {
             return $this->getNavbar();
@@ -276,7 +276,7 @@ class Admin
     /**
      * Get navbar object.
      *
-     * @return \Encore\Admin\Widgets\Navbar
+     * @return \Arcplg\Admin\Widgets\Navbar
      */
     public function getNavbar()
     {
@@ -314,7 +314,7 @@ class Admin
         app('router')->group($attributes, function ($router) {
 
             /* @var \Illuminate\Support\Facades\Route $router */
-            $router->namespace('\Encore\Admin\Controllers')->group(function ($router) {
+            $router->namespace('\Arcplg\Admin\Controllers')->group(function ($router) {
 
                 /* @var \Illuminate\Routing\Router $router */
                 $router->resource('auth/users', 'UserController')->names('admin.auth.users');

@@ -1,10 +1,10 @@
 <?php
 
-namespace Encore\Admin\Traits;
+namespace Arcplg\Admin\Traits;
 
-use Encore\Admin\Form;
-use Encore\Admin\Grid;
-use Encore\Admin\Tree;
+use Arcplg\Admin\Form;
+use Arcplg\Admin\Grid;
+use Arcplg\Admin\Tree;
 
 /**
  * @deprecated
@@ -36,7 +36,7 @@ trait AdminBuilder
      *
      * @return Tree
      */
-    public static function tree(\Closure $callback = null)
+    public static function tree(?\Closure $callback = null)
     {
         return new Tree(new static(), $callback);
     }

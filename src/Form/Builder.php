@@ -1,10 +1,10 @@
 <?php
 
-namespace Encore\Admin\Form;
+namespace Arcplg\Admin\Form;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Form;
-use Encore\Admin\Form\Field\Hidden;
+use Arcplg\Admin\Admin;
+use Arcplg\Admin\Form;
+use Arcplg\Admin\Form\Field\Hidden;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\URL;
@@ -230,7 +230,7 @@ class Builder
      *
      * @return string
      */
-    public function getResource(int $slice = null): string
+    public function getResource(?int $slice = null): string
     {
         if ($this->mode === self::MODE_CREATE) {
             return $this->form->resource(-1);

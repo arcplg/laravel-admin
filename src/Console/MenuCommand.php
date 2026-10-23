@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Console;
+namespace Arcplg\Admin\Console;
 
-use Encore\Admin\Facades\Admin;
+use Arcplg\Admin\Facades\Admin;
 use Illuminate\Console\Command;
 
 class MenuCommand extends Command

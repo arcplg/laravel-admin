@@ -1,10 +1,10 @@
 <?php
 
-namespace Encore\Admin\Controllers;
+namespace Arcplg\Admin\Controllers;
 
-use Encore\Admin\Form;
-use Encore\Admin\Grid;
-use Encore\Admin\Show;
+use Arcplg\Admin\Form;
+use Arcplg\Admin\Grid;
+use Arcplg\Admin\Show;
 use Illuminate\Support\Facades\Hash;
 
 class UserController extends AdminController

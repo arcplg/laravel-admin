@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Filter;
+namespace Arcplg\Admin\Grid\Filter;
 
-use Encore\Admin\Admin;
+use Arcplg\Admin\Admin;
 use Illuminate\Support\Arr;
 
 class Between extends AbstractFilter

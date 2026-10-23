@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Layout;
+namespace Arcplg\Admin\Layout;
 
-use Encore\Admin\Grid;
+use Arcplg\Admin\Grid;
 use Illuminate\Contracts\Support\Renderable;
 
 class Column implements Buildable

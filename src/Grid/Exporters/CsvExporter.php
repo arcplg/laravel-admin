@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Exporters;
+namespace Arcplg\Admin\Grid\Exporters;
 
-use Encore\Admin\Grid\Column;
+use Arcplg\Admin\Grid\Column;
 
 class CsvExporter extends AbstractExporter
 {

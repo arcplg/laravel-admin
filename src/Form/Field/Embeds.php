@@ -1,10 +1,10 @@
 <?php
 
-namespace Encore\Admin\Form\Field;
+namespace Arcplg\Admin\Form\Field;
 
-use Encore\Admin\Form\EmbeddedForm;
-use Encore\Admin\Form\Field;
-use Encore\Admin\Widgets\Form as WidgetForm;
+use Arcplg\Admin\Form\EmbeddedForm;
+use Arcplg\Admin\Form\Field;
+use Arcplg\Admin\Widgets\Form as WidgetForm;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 

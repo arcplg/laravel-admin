@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Auth;
+namespace Arcplg\Admin\Auth;
 
-use Encore\Admin\Facades\Admin;
-use Encore\Admin\Middleware\Pjax;
+use Arcplg\Admin\Facades\Admin;
+use Arcplg\Admin\Middleware\Pjax;
 
 class Permission
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Show;
+namespace Arcplg\Admin\Show;
 
-use Encore\Admin\Grid;
-use Encore\Admin\Show;
+use Arcplg\Admin\Grid;
+use Arcplg\Admin\Show;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;

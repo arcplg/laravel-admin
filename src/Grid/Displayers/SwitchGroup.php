@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Displayers;
+namespace Arcplg\Admin\Grid\Displayers;
 
-use Encore\Admin\Admin;
+use Arcplg\Admin\Admin;
 use Illuminate\Support\Arr;
 
 class SwitchGroup extends SwitchDisplay

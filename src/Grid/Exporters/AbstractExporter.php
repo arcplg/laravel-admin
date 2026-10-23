@@ -1,13 +1,13 @@
 <?php
 
-namespace Encore\Admin\Grid\Exporters;
+namespace Arcplg\Admin\Grid\Exporters;
 
-use Encore\Admin\Grid;
+use Arcplg\Admin\Grid;
 
 abstract class AbstractExporter implements ExporterInterface
 {
     /**
-     * @var \Encore\Admin\Grid
+     * @var \Arcplg\Admin\Grid
      */
     protected $grid;
 
@@ -21,7 +21,7 @@ abstract class AbstractExporter implements ExporterInterface
      *
      * @param $grid
      */
-    public function __construct(Grid $grid = null)
+    public function __construct(?Grid $grid = null)
     {
         if ($grid) {
             $this->setGrid($grid);

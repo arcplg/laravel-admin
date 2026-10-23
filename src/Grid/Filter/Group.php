@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Filter;
+namespace Arcplg\Admin\Grid\Filter;
 
-use Encore\Admin\Admin;
+use Arcplg\Admin\Admin;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 
@@ -32,7 +32,7 @@ class Group extends AbstractFilter
      * @param string        $label
      * @param \Closure|null $builder
      */
-    public function __construct($column, $label = '', \Closure $builder = null)
+    public function __construct($column, $label = '', ?\Closure $builder = null)
     {
         $this->column = $column;
 

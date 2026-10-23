@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Tools;
+namespace Arcplg\Admin\Grid\Tools;
 
-use Encore\Admin\Grid;
+use Arcplg\Admin\Grid;
 use Illuminate\Pagination\LengthAwarePaginator;
 
 class Paginator extends AbstractTool

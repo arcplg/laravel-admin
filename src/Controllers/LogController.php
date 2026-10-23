@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Controllers;
+namespace Arcplg\Admin\Controllers;
 
-use Encore\Admin\Auth\Database\OperationLog;
-use Encore\Admin\Grid;
+use Arcplg\Admin\Auth\Database\OperationLog;
+use Arcplg\Admin\Grid;
 use Illuminate\Support\Arr;
 
 class LogController extends AdminController

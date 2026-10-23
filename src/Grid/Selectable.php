@@ -1,10 +1,10 @@
 <?php
 
-namespace Encore\Admin\Grid;
+namespace Arcplg\Admin\Grid;
 
-use Encore\Admin\Grid;
-use Encore\Admin\Grid\Selectable\Checkbox;
-use Encore\Admin\Grid\Selectable\Radio;
+use Arcplg\Admin\Grid;
+use Arcplg\Admin\Grid\Selectable\Checkbox;
+use Arcplg\Admin\Grid\Selectable\Radio;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Widgets;
+namespace Arcplg\Admin\Widgets;
 
-use Encore\Admin\Widgets\Navbar\RefreshButton;
+use Arcplg\Admin\Widgets\Navbar\RefreshButton;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;
 

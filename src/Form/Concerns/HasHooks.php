@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Form\Concerns;
+namespace Arcplg\Admin\Form\Concerns;
 
 use Closure;
 use Illuminate\Support\Arr;
@@ -27,7 +27,7 @@ trait HasHooks
      *
      * @param Closure $callback
      */
-    public static function init(Closure $callback = null)
+    public static function init(?Closure $callback = null)
     {
         static::$initCallbacks[] = $callback;
     }

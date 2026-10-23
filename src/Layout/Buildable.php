@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Layout;
+namespace Arcplg\Admin\Layout;
 
 interface Buildable
 {
